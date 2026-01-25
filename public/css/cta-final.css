@@ -17,22 +17,29 @@
 }
 
 .cta-final-cta {
-  background: white;
-  color: var(--color-primary);
-  padding: var(--spacing-md) var(--spacing-xl);
-  border-radius: 50px;
+  background: #25D366;
+  color: #FFFFFF;
+  padding: var(--spacing-md) 2.5rem;
+  border-radius: 999px;
   text-decoration: none;
   font-weight: 700;
   font-size: 1.3rem;
   transition: var(--transition);
-  border: 3px solid white;
+  border: 3px solid #25D366;
   display: inline-block;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .cta-final-cta:hover {
-  transform: scale(1.1);
+  background: #1EBE5D;
+  border-color: #1EBE5D;
+  transform: scale(1.05);
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+}
+
+.cta-final-cta:active {
+  background: #1DA851;
+  border-color: #1DA851;
 }
 
 @media (max-width: 768px) {

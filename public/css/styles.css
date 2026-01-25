@@ -64,7 +64,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(214, 51, 132, 0.25) 100%);
   pointer-events: none;
 }
 
@@ -90,74 +90,96 @@ body {
   font-size: 1.5rem;
   margin-bottom: var(--spacing-xl);
   color: var(--color-primary);
-  text-shadow: 0 0 15px rgba(214, 51, 132, 0.4);
-  letter-spacing: 2px;
+  text-shadow: 0 0 20px rgba(214, 51, 132, 0.8), 0 0 10px rgba(214, 51, 132, 0.4);
+  letter-spacing: 3px;
   font-weight: 600;
   opacity: 0;
   animation: heroSubtitleFadeIn 0.8s ease-out 0.3s forwards;
+  text-transform: uppercase;
 }
 
 .hero-cta {
-  background: linear-gradient(135deg, #25d366 0%, #20ba5d 100%);
+  background: #25D366;
   color: white;
-  padding: var(--spacing-md) var(--spacing-xl);
-  border-radius: 50px;
+  padding: var(--spacing-md) 2rem;
+  border-radius: 999px;
   text-decoration: none;
   font-weight: 700;
   font-size: 1.2rem;
   transition: var(--transition);
-  border: 3px solid #25d366;
+  border: 3px solid #25D366;
   display: inline-block;
   box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
 }
 
 .hero-cta:hover {
-  background: linear-gradient(135deg, #20ba5d 0%, #1a9250 100%);
-  transform: scale(1.1);
+  background: #1EBE5D;
+  border-color: #1EBE5D;
+  transform: scale(1.05);
   box-shadow: 0 6px 24px rgba(37, 211, 102, 0.6);
 }
 
-/* Sección de confianza */
-.confianza {
-  display: flex;
-  justify-content: center;
-  gap: var(--spacing-xl);
-  padding: var(--spacing-xl);
-  background: white;
-  flex-wrap: wrap;
-  overflow: hidden;
+.hero-cta:active {
+  background: #1DA851;
+  border-color: #1DA851;
 }
 
-.confianza-item {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: var(--color-dark);
-  text-align: center;
-  letter-spacing: 0.5px;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  opacity: 0;
-  animation: confianzaItemFadeIn 0.8s ease-out forwards,
-    confianzaItemBreathing 8s ease-in-out infinite;
+/* Banner Informativo */
+.banner-info {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto var(--spacing-xl);
+  padding: 0 var(--spacing-lg);
 }
 
-.confianza-item:nth-child(1) {
-  animation-delay: 0.2s, 1s;
+.banner-info img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
 }
 
-.confianza-item:nth-child(2) {
-  animation-delay: 0.4s, 1.2s;
+@media (max-width: 768px) {
+  .banner-info {
+    margin-bottom: var(--spacing-lg);
+    padding: 0 var(--spacing-md);
+  }
 }
 
-.confianza-item:nth-child(3) {
-  animation-delay: 0.6s, 1.4s;
+@media (max-width: 480px) {
+  .banner-info {
+    padding: 0 var(--spacing-sm);
+  }
 }
 
-.confianza-icon {
-  font-size: 1.5rem;
-  filter: drop-shadow(0 0 5px rgba(214, 51, 132, 0.3));
-  transition: var(--transition);
+/* Catalog Banner */
+.catalogo-banner {
+  width: 100%;
+  max-width: 1200px;
+  margin: var(--spacing-xl) auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.catalogo-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 768px) {
+  .catalogo-banner {
+    margin: var(--spacing-lg) auto;
+    padding: 0 var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .catalogo-banner {
+    padding: 0 var(--spacing-sm);
+  }
 }
 
 /* Main content padding */
@@ -296,23 +318,32 @@ p {
 
 /* Botón WhatsApp */
 .producto a {
-  background: linear-gradient(135deg, #25d366 0%, #20ba5d 100%);
+  background: #25D366;
   color: white;
-  padding: var(--spacing-md) var(--spacing-sm);
-  border-radius: 8px;
+  padding: var(--spacing-md) 2rem;
+  border-radius: 999px;
   text-decoration: none;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   transition: var(--transition);
   display: block;
-  margin-top: auto;
-  border: 2px solid #25d366;
+  margin: auto auto 0;
+  border: 2px solid #25D366;
+  width: fit-content;
+  min-width: 180px;
 }
 
 .producto a:hover {
-  background: linear-gradient(135deg, #20ba5d 0%, #1a9250 100%);
+  background: #1EBE5D;
+  border-color: #1EBE5D;
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.producto a:active {
+  background: #1DA851;
+  border-color: #1DA851;
+  transform: scale(0.98);
 }
 
 .producto a:active {
@@ -726,23 +757,31 @@ hr {
 }
 
 .modal-whatsapp {
-  background: linear-gradient(135deg, #25d366 0%, #20ba5d 100%);
+  background: #25D366;
   color: white;
-  padding: var(--spacing-md) var(--spacing-lg);
-  border-radius: 8px;
+  padding: var(--spacing-md) 2.5rem;
+  border-radius: 999px;
   text-decoration: none;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   transition: var(--transition);
-  border: 2px solid #25d366;
-  margin-top: auto;
+  border: 2px solid #25D366;
+  margin: auto auto 0;
   display: block;
+  width: fit-content;
 }
 
 .modal-whatsapp:hover {
-  background: linear-gradient(135deg, #20ba5d 0%, #1a9250 100%);
+  background: #1EBE5D;
+  border-color: #1EBE5D;
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.modal-whatsapp:active {
+  background: #1DA851;
+  border-color: #1DA851;
+  transform: scale(0.98);
 }
 
 .modal-whatsapp:active {
@@ -1058,23 +1097,32 @@ hr {
 }
 
 .pack-card-cta {
-  background: linear-gradient(135deg, #25d366 0%, #20ba5d 100%);
+  background: #25D366;
   color: white;
-  padding: var(--spacing-md) var(--spacing-lg);
-  border-radius: 8px;
+  padding: var(--spacing-md) 2rem;
+  border-radius: 999px;
   text-decoration: none;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   transition: var(--transition);
-  border: 2px solid #25d366;
-  margin-top: auto;
+  border: 2px solid #25D366;
+  margin: auto auto 0;
   display: block;
+  width: fit-content;
+  min-width: 200px;
 }
 
 .pack-card-cta:hover {
-  background: linear-gradient(135deg, #20ba5d 0%, #1a9250 100%);
+  background: #1EBE5D;
+  border-color: #1EBE5D;
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.pack-card-cta:active {
+  background: #1DA851;
+  border-color: #1DA851;
+  transform: scale(0.98);
 }
 
 .pack-card-cta:active {
@@ -1241,23 +1289,48 @@ hr {
 }
 
 .experiencia-card-cta {
-  background: linear-gradient(135deg, #d63384 0%, #c2185b 100%);
+  background: #25D366;
   color: white;
-  padding: var(--spacing-md) var(--spacing-lg);
-  border-radius: 8px;
+  padding: var(--spacing-md) 2rem;
+  border-radius: 999px;
   text-decoration: none;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   transition: var(--transition);
-  border: 2px solid #d63384;
-  margin-top: auto;
+  border: 2px solid #25D366;
+  margin: auto auto 0;
   display: block;
+  width: fit-content;
+  min-width: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.experiencia-card-cta::before {
+  content: "📲 Info por WhatsApp";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 
 .experiencia-card-cta:hover {
-  background: linear-gradient(135deg, #c2185b 0%, #a0144c 100%);
+  background: #1EBE5D;
+  border-color: #1EBE5D;
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(214, 51, 132, 0.3);
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.experiencia-card-cta:active {
+  background: #1DA851;
+  border-color: #1DA851;
+  transform: scale(0.98);
 }
 
 .experiencia-card-cta:active {
@@ -1616,23 +1689,30 @@ hr {
 }
 
 .popup-cta {
-  background: linear-gradient(135deg, #d63384 0%, #c2185b 100%);
+  background: #25D366;
   color: white;
-  padding: 1rem 2rem;
-  border-radius: 50px;
+  padding: 1rem 2.5rem;
+  border-radius: 999px;
   text-decoration: none;
   font-weight: 700;
   font-size: 1.2rem;
   display: inline-block;
   transition: var(--transition);
-  box-shadow: 0 4px 15px rgba(214, 51, 132, 0.4);
-  border: none;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  border: 2px solid #25D366;
 }
 
 .popup-cta:hover {
+  background: #1EBE5D;
+  border-color: #1EBE5D;
   transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(214, 51, 132, 0.6);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
   color: white;
+}
+
+.popup-cta:active {
+  background: #1DA851;
+  border-color: #1DA851;
 }
 
 @keyframes popupScaleIn {
@@ -1686,6 +1766,99 @@ hr {
   letter-spacing: 4px;
   text-shadow: 0 0 10px rgba(214, 51, 132, 0.6);
   animation: timerPulse 2s ease-in-out infinite;
+}
+
+/* ============================================
+   Brand Footer
+   ============================================ */
+.footer {
+  background: #1a1a1a;
+  color: #fff;
+  padding: var(--spacing-xl) 0;
+  margin-top: var(--spacing-xl);
+  border-top: 2px solid var(--color-primary);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-xl);
+  flex-wrap: wrap;
+}
+
+.footer-brand {
+  flex: 0 0 250px;
+}
+
+.footer-brand img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(0.9);
+  transition: var(--transition);
+}
+
+.footer-brand img:hover {
+  filter: brightness(1.1);
+}
+
+.footer-info {
+  flex: 1;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.footer-slogan {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: flex-end;
+  margin-top: var(--spacing-md);
+}
+
+.footer-links .confianza-item {
+  color: #ccc;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-lg);
+  }
+
+  .footer-brand {
+    flex: 0 0 200px;
+    margin: 0 auto;
+  }
+
+  .footer-info {
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
 }
 
 @keyframes timerPulse {
