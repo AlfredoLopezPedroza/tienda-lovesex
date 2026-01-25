@@ -145,6 +145,11 @@ body {
     margin-bottom: var(--spacing-lg);
     padding: 0 var(--spacing-md);
   }
+
+  .banner-info img {
+    max-height: 200px;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 480px) {
@@ -173,6 +178,11 @@ body {
   .catalogo-banner {
     margin: var(--spacing-lg) auto;
     padding: 0 var(--spacing-md);
+  }
+
+  .catalogo-banner img {
+    max-height: 200px;
+    object-fit: cover;
   }
 }
 
@@ -948,8 +958,15 @@ hr {
 
 /* Hero Responsive */
 @media (max-width: 768px) {
+  :root {
+    --spacing-xl: 1.5rem;
+    --spacing-lg: 1rem;
+    --spacing-md: 0.75rem;
+  }
+
   .hero {
-    height: 40vh;
+    height: 35vh;
+    min-height: 280px;
     margin-bottom: var(--spacing-lg);
   }
 
@@ -960,12 +977,22 @@ hr {
     padding-right: var(--spacing-md);
   }
 
+  .hero-titulo {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitulo {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
+
   .categoria-titulo {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: var(--spacing-md);
   }
 
   .categoria-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: var(--spacing-md);
   }
 }
@@ -1841,14 +1868,18 @@ hr {
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding: var(--spacing-lg) 0;
+  }
+
   .footer-container {
     flex-direction: column;
     text-align: center;
-    gap: var(--spacing-lg);
+    gap: var(--spacing-md);
   }
 
   .footer-brand {
-    flex: 0 0 200px;
+    flex: 0 0 140px;
     margin: 0 auto;
   }
 
@@ -1856,8 +1887,13 @@ hr {
     text-align: center;
   }
 
+  .footer-slogan {
+    font-size: 1.1rem;
+  }
+
   .footer-links {
     justify-content: center;
+    margin-top: var(--spacing-sm);
   }
 }
 
