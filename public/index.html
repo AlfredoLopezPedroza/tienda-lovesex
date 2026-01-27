@@ -12,11 +12,12 @@
 <body>
   <!-- Hero Section -->
   <section class="hero">
-    <img src="/hero/hero.jpg" alt="Love&Sex - Bienvenido" class="hero-imagen">
+    <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="/hero/hero.jpg">
+      <source src="/hero/hero.mp4" type="video/mp4">
+    </video>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <h1 class="hero-titulo">Love&Sex</h1>
-      <p class="hero-subtitulo">Tu Placer, Mi Satisfacción</p>
+      <!-- Contenido visual únicamente -->
     </div>
   </section>
 
@@ -26,10 +27,12 @@
 
   <section id="packs-destacados"></section>
 
-  <section id="experiencias-guiadas"></section>
+  <section id="packs-destacados"></section>
 
   <section class="catalogo-banner">
-    <img src="/banners/catalogo-banner.png" alt="Catálogo Love&Sex">
+    <video class="banner-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/banners/catalogo-banner.mp4" type="video/mp4">
+    </video>
   </section>
 
   <div id="categorias-container" class="categorias-container"></div>
@@ -62,6 +65,7 @@
           <h2 id="modal-nombre"></h2>
           <p class="modal-categoria" id="modal-categoria"></p>
           <p class="modal-precio"><strong id="modal-precio"></strong></p>
+          <p id="modal-descripcion" class="modal-descripcion"></p>
           <a id="modal-whatsapp" class="modal-whatsapp" target="_blank">
             Pedir ahora
           </a>
@@ -70,20 +74,14 @@
     </div>
   </div>
 
-  <section class="cta-final">
-    <h2 class="cta-final-titulo">Asesoría adulta, discreta y personalizada</h2>
-    <a href="https://wa.me/527772507242?text=Hola%20%F0%9F%91%8B%0A%0AVengo%20de%20la%20tienda%20Love%26Sex.%0A%0AQuiero%20informaci%C3%B3n%20discreta%20sobre%20productos%20para%20adultos."
-      target="_blank" class="cta-final-cta">
-      📲 Hablar con una asesora privada
-    </a>
-  </section>
+
 
   <!-- Popup Promocional -->
   <div id="popup-promo" class="popup-promo" style="display:none;">
     <div class="popup-contenido">
       <button class="popup-cerrar" id="popup-cerrar-btn">✕</button>
       <div class="popup-body">
-        <h2 class="popup-titulo">🔥 Inicio de Año Hot 🔥</h2>
+        <h2 class="popup-titulo">😈 OFERTAS 😈</h2>
         <h3 class="popup-subtitulo">Promociones privadas solo por WhatsApp</h3>
         <p class="popup-texto">
           Aprovecha descuentos especiales, asesoría personalizada
@@ -96,9 +94,9 @@
           <div id="popup-timer" class="timer-display">00 : 00 : 00</div>
         </div>
 
-        <a href="https://wa.me/527772507242?text=Hola%20%F0%9F%91%8B%0A%0AVengo%20de%20la%20tienda%20Love%26Sex%20(juguetes%20para%20adultos).%0A%0AQuiero%20aprovechar%20la%20promoci%C3%B3n%20de%20Inicio%20de%20A%C3%B1o%20%F0%9F%94%A5"
+        <a href="https://wa.me/527772507342?text=Hola%20%F0%9F%91%8B%0A%0AVengo%20de%20la%20tienda%20Love%26Sex%20y%20quiero%20aprovechar%20las%20ofertas%20%F0%9F%98%88"
           target="_blank" class="popup-cta">
-          Quiero mi promo privada
+          Manda WhatsApp
         </a>
       </div>
     </div>
@@ -112,10 +110,6 @@
       <div class="footer-info">
         <p class="footer-slogan">"Tu Placer, Mi Satisfacción"</p>
         <p class="footer-copyright">&copy; 2026 Love&Sex. Todos los derechos reservados.</p>
-        <div class="footer-links">
-          <span class="confianza-item">🔒 Discreción Total</span>
-          <span class="confianza-item">💬 Asesoría Privada</span>
-        </div>
       </div>
     </div>
   </footer>

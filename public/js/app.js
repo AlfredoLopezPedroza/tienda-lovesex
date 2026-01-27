@@ -161,7 +161,7 @@ function renderizarPacksHome() {
   // Título de sección
   const titulo = document.createElement('h2');
   titulo.className = 'packs-titulo';
-  titulo.textContent = '📦 Packs Destacados';
+  titulo.textContent = '🔥 PROMOCIONES 🔥';
   packsContainer.appendChild(titulo);
 
   // Crear grid de packs
@@ -411,6 +411,15 @@ function volverCategorias() {
   renderizarCategorias();
 }
 
+// Navegación suave al bloque de categorías
+function irACategoriasSmooth() {
+  volverCategorias();
+  const target = document.getElementById('categorias-container');
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
 function generarMensajeWhatsApp(producto) {
   const nombre = producto.nombre || 'Producto sin nombre';
   const sku = producto.sku || 'N/A';
@@ -471,6 +480,12 @@ function abrirModal(producto) {
   document.getElementById('modal-img').alt = producto.nombre;
   document.getElementById('modal-nombre').textContent = producto.nombre;
   document.getElementById('modal-categoria').textContent = producto.categoria || 'Sin categoría';
+
+  // Descripción
+  const descElement = document.getElementById('modal-descripcion');
+  if (descElement) {
+    descElement.textContent = producto.descripcion || '';
+  }
 
   const precioElement = document.getElementById('modal-precio');
   if (producto.promo_activa === true && producto.precio_promo) {
@@ -589,6 +604,17 @@ function renderizarCatalogo(productos) {
     });
 
     seccion.appendChild(grid);
+
+    // Botón inferior de navegación (Scroll UX)
+    const btnInferiorContainer = document.createElement('div');
+    btnInferiorContainer.className = 'btn-navegacion-inferior-container';
+    btnInferiorContainer.innerHTML = `
+      <button onclick="irACategoriasSmooth()" class="btn-navegacion-inferior">
+        ← Ver todas las categorías
+      </button>
+    `;
+    seccion.appendChild(btnInferiorContainer);
+
     contenedor.appendChild(seccion);
   });
 
@@ -606,8 +632,8 @@ function inicializarPopup() {
 
   if (!popup) return;
 
-  // Lógica del Temporizador (6 horas = 21600 segundos)
-  let timeLeft = 21600;
+  // Lógica del Temporizador (1 hora = 3600 segundos)
+  let timeLeft = 3600;
 
   const updateTimer = () => {
     const hours = Math.floor(timeLeft / 3600);

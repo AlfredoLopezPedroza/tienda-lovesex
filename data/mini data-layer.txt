@@ -1,0 +1,5 @@
+data/
+└── source/
+    ├── categorias.docx
+    ├── precios.xlsx
+    ├── promociones.json
