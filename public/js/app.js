@@ -17,6 +17,19 @@ let selectCategoria = null;
 let modalOverlay = null;
 let modalCerrar = null;
 
+// Mapeo explícito de categorías a imágenes
+const categoryImages = {
+  "DILDOS": "dildos.webp",
+  "VIBRADORES": "vibradores.webp",
+  "JUGUETES ANALES": "juguetes-anales.webp",
+  "FUNDAS Y ANILLOS": "fundas-anillos.webp",
+  "MASTURBADORES Y BOMBAS": "masturbadores-bombas.webp",
+  "RETARDANTES SEXUALES": "retardantes-sexuales.webp",
+  "VIGORIZANTES SEXUALES": "vigorizantes-sexuales.webp",
+  "LUBRICANTES Y CREMAS": "lubricantes-cremas.webp",
+  "ARNES Y FETISH": "arnes-fetish.webp"
+};
+
 // Cargar productos
 fetch('/api/productos')
   .then(res => {
@@ -26,6 +39,7 @@ fetch('/api/productos')
     return res.json();
   })
   .then(resultado => {
+    catalogo = resultado;
     productosOriginales = resultado.data || [];
     productosFiltrados = [...productosOriginales];
 
@@ -123,6 +137,7 @@ function cargarPacksYRenderizarHome() {
     .then(resultado => {
       experiencias = resultado.data || [];
       renderizarExperienciasHome();
+      // Ensure we use the categories from the JSON to includes ones that might not have products yet
       renderizarCategorias();
     })
     .catch(err => {
@@ -274,7 +289,9 @@ function renderizarCategorias() {
     btnVolver.style.display = 'none';
   }
 
-  // Obtener categorías con sus productos
+  // Get all categories from the products data
+  const categoriasJSON = (catalogo && catalogo.categorias) ? catalogo.categorias : [];
+
   const productosPorCategoria = {};
   productosOriginales.forEach(producto => {
     const categoria = producto.categoria || 'Sin categoría';
@@ -284,7 +301,12 @@ function renderizarCategorias() {
     productosPorCategoria[categoria].push(producto);
   });
 
-  const categoriasOrdenadas = Object.keys(productosPorCategoria).sort();
+  // Ensure all categories from the JSON are present even if they have no products
+  const todasLasCategorias = new Set();
+  categoriasJSON.forEach(c => todasLasCategorias.add(c.nombre));
+  Object.keys(productosPorCategoria).forEach(c => todasLasCategorias.add(c));
+
+  const categoriasOrdenadas = Array.from(todasLasCategorias).sort();
 
   // Obtener contenedor existente
   let contenedor = document.querySelector('.categorias-container');
@@ -297,20 +319,11 @@ function renderizarCategorias() {
   contenedor.innerHTML = '';
 
   categoriasOrdenadas.forEach(categoria => {
-    const productos = productosPorCategoria[categoria];
+    const productos = productosPorCategoria[categoria] || [];
 
-    // Normalización para obtener el slug de la imagen
-    const slug = categoria.toLowerCase()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "") // Quitar acentos
-      .replace(/\s+/g, '-')            // Espacios a guiones
-      .replace(/-y-/g, '-')            // "arnes-y-fetish" -> "arnes-fetish"
-      .replace(/lubricantes/g, 'lubricantes-cremas') // Mapeo especial
-      .replace(/cremas-lubricantes-cremas/g, 'lubricantes-cremas') // Evitar duplicados
-      .replace(/masturbadores/g, 'masturbadores-bombas') // Mapeo especial
-      .replace(/estimulantes/g, 'vigorizantes-sexuales'); // Mapeo especial
-
-    const imgPath = `/img/categorias/${slug}.webp`;
+    // Explicit mapping for category images
+    const categoryImgFile = categoryImages[categoria.toUpperCase()] || "pendiente.webp";
+    const imgPath = `/img/categorias/${categoryImgFile}`;
     const fallback = `/img/productos/pendiente.webp`;
 
     const card = document.createElement('div');
@@ -476,15 +489,69 @@ function abrirModal(producto) {
   const mensajeEncoded = generarMensajeWhatsApp(producto);
   const whatsappURL = `https://wa.me/${WHATSAPP_NUMBER}?text=${mensajeEncoded}`;
 
-  document.getElementById('modal-img').src = `/img/productos/${producto.imagen}`;
-  document.getElementById('modal-img').alt = producto.nombre;
+  const hasGallery = producto.galeria && producto.galeria.length > 1;
+  const modalImagenContenedor = document.querySelector('.modal-imagen');
+
+  if (hasGallery) {
+    let currentImgIndex = 0;
+    modalImagenContenedor.innerHTML = `
+      <div class="gallery-wrapper">
+        <button class="gallery-prev" id="prev-btn">❮</button>
+        <img id="modal-img" src="/img/productos/${producto.galeria[0]}" alt="${producto.nombre}" />
+        <button class="gallery-next" id="next-btn">❯</button>
+        <div class="gallery-counter"><span id="current-idx">1</span> / ${producto.galeria.length}</div>
+      </div>
+    `;
+
+    const imgElement = document.getElementById('modal-img');
+    const counterElement = document.getElementById('current-idx');
+
+    document.getElementById('prev-btn').onclick = (e) => {
+      e.stopPropagation();
+      currentImgIndex = (currentImgIndex - 1 + producto.galeria.length) % producto.galeria.length;
+      imgElement.src = `/img/productos/${producto.galeria[currentImgIndex]}`;
+      counterElement.textContent = currentImgIndex + 1;
+    };
+
+    document.getElementById('next-btn').onclick = (e) => {
+      e.stopPropagation();
+      currentImgIndex = (currentImgIndex + 1) % producto.galeria.length;
+      imgElement.src = `/img/productos/${producto.galeria[currentImgIndex]}`;
+      counterElement.textContent = currentImgIndex + 1;
+    };
+  } else {
+    modalImagenContenedor.innerHTML = `<img id="modal-img" src="/img/productos/${producto.imagen}" alt="${producto.nombre}" />`;
+  }
+
   document.getElementById('modal-nombre').textContent = producto.nombre;
   document.getElementById('modal-categoria').textContent = producto.categoria || 'Sin categoría';
 
-  // Descripción
-  const descElement = document.getElementById('modal-descripcion');
+  // Secciones de texto (3 secciones separadas)
+  const infoContenedor = document.querySelector('.modal-info');
+  // Remove existing dynamic sections if any (to avoid duplicates)
+  const existingSections = infoContenedor.querySelectorAll('.modal-section-extra');
+  existingSections.forEach(s => s.remove());
+
+  // Commercial description
+  const descElement = document.getElementById('modal-description'); // I will rename IDs in HTML or handle it here
   if (descElement) {
     descElement.textContent = producto.descripcion || '';
+    descElement.style.display = producto.descripcion ? 'block' : 'none';
+  }
+
+  // Create Beneficio and Ficha sections
+  if (producto.beneficio) {
+    const beneficioDiv = document.createElement('div');
+    beneficioDiv.className = 'modal-section-extra';
+    beneficioDiv.innerHTML = `<h4 class="modal-section-title">✨ Beneficio Principal</h4><p class="modal-text-content">${producto.beneficio}</p>`;
+    infoContenedor.insertBefore(beneficioDiv, document.getElementById('modal-whatsapp'));
+  }
+
+  if (producto.ficha) {
+    const fichaDiv = document.createElement('div');
+    fichaDiv.className = 'modal-section-extra';
+    fichaDiv.innerHTML = `<h4 class="modal-section-title">📋 Ficha Técnica</h4><p class="modal-text-content">${producto.ficha}</p>`;
+    infoContenedor.insertBefore(fichaDiv, document.getElementById('modal-whatsapp'));
   }
 
   const precioElement = document.getElementById('modal-precio');
