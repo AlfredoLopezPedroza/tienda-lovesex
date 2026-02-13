@@ -739,6 +739,12 @@ function inicializarPopup() {
     cerrarBtn.addEventListener('click', ocultarPopup);
   }
 
+  // Cerrar popup (Botón Manual Grande)
+  const manualCerrarBtn = document.getElementById('popup-manual-cerrar');
+  if (manualCerrarBtn) {
+    manualCerrarBtn.addEventListener('click', ocultarPopup);
+  }
+
   // Cerrar al hacer click en el overlay oscuro
   popup.addEventListener('click', (e) => {
     if (e.target === popup) {
