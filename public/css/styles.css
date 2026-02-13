@@ -1857,200 +1857,6 @@ hr {
 }
 
 /* ============================================
-   Popup Promocional
-   ============================================ */
-
-.popup-promo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(8px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2000;
-  padding: var(--spacing-lg);
-  animation: fadeInOverlay 0.4s ease-out;
-}
-
-.popup-contenido {
-  background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
-  border: 1px solid rgba(214, 51, 132, 0.3);
-  border-radius: 20px;
-  box-shadow: 0 0 40px rgba(214, 51, 132, 0.2);
-  max-width: 450px;
-  width: 100%;
-  padding: var(--spacing-xl);
-  position: relative;
-  text-align: center;
-  animation: popupScaleIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-
-.popup-cerrar {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: transparent;
-  border: none;
-  font-size: 1.5rem;
-  color: #666;
-  cursor: pointer;
-  transition: var(--transition);
-  padding: 5px;
-  line-height: 1;
-}
-
-.popup-cerrar:hover {
-  color: var(--color-primary);
-}
-
-.popup-titulo {
-  color: white;
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  font-weight: 900;
-  line-height: 1.2;
-  text-transform: uppercase;
-  font-family: 'Arial Black', sans-serif;
-  display: block;
-}
-
-.modal-precio-promo {
-  color: var(--color-primary);
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-.modal-descripcion {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #000;
-  margin-bottom: 1.5rem;
-  font-style: italic;
-}
-
-.popup-subtitulo {
-  color: var(--color-primary);
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-.popup-texto {
-  color: #ccc;
-  font-size: 1.05rem;
-  margin-bottom: 2rem;
-  line-height: 1.5;
-}
-
-.popup-cta {
-  background: #25D366;
-  color: white;
-  padding: 1rem 2.5rem;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1.2rem;
-  display: inline-block;
-  transition: var(--transition);
-  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-  border: 2px solid #25D366;
-  position: relative;
-  overflow: hidden;
-}
-
-.popup-cta::before {
-  content: "👉 Manda WhatsApp";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: inherit;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-}
-
-.popup-cta:hover {
-  background: #1EBE5D;
-  border-color: #1EBE5D;
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
-  color: white;
-}
-
-.popup-cta:active {
-  background: #1DA851;
-  border-color: #1DA851;
-}
-
-@keyframes popupScaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.9) translateY(20px);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
-}
-
-.popup-manual-cerrar {
-  background: transparent;
-  color: #999;
-  border: 1px solid #333;
-  padding: 0.8rem 2rem;
-  border-radius: 999px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 1.5rem;
-  transition: var(--transition);
-  display: inline-block;
-  width: auto;
-}
-
-.popup-manual-cerrar:hover {
-  background: rgba(255, 255, 255, 0.05);
-  color: white;
-  border-color: var(--color-primary);
-  transform: translateY(-2px);
-}
-
-.popup-manual-cerrar:active {
-  transform: translateY(0);
-}
-
-@media (max-width: 480px) {
-  .popup-contenido {
-    padding: var(--spacing-lg);
-  }
-
-  .popup-titulo {
-    font-size: 1.3rem;
-  }
-
-  .popup-subtitulo {
-    font-size: 1rem;
-  }
-}
-
-/* Timer Styles */
-.popup-timer-container {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  border: 1px dashed rgba(214, 51, 132, 0.4);
-}
 
 .timer-label {
   color: #999;
@@ -2096,57 +1902,49 @@ hr {
   flex: 0 0 320px;
 }
 
-.footer-video {
-  max-width: 300px !important;
-  max-height: 120px !important;
-  width: auto !important;
-  height: auto !important;
-  display: block !important;
-  filter: brightness(0.9);
-  transition: var(--transition);
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  object-fit: contain !important;
-}
-
-.footer-video:hover {
-  filter: brightness(1.1);
-  transform: scale(1.02);
-}
-
-.footer-info {
-  flex: 1;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-sm);
-}
-
+.footer-logo-text,
 .footer-slogan {
-  font-size: 1.35rem;
-  font-weight: 800;
-  color: #cf0a2c;
-  /* Premium Red */
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #d63384, #ff007f, #d63384);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   display: inline-block;
-  margin-bottom: 0.5rem;
-  font-style: italic;
-  text-shadow: 0 0 5px rgba(207, 10, 44, 0.3);
-  animation: sloganBreathe 3s ease-in-out infinite;
-  transition: transform 0.3s ease;
+  animation: logoGradient 3s linear infinite;
+  transition: transform 0.3s ease, filter 0.3s ease;
   cursor: default;
 }
 
-@keyframes sloganBreathe {
+.footer-logo-text {
+  font-size: 3rem;
+  letter-spacing: -1px;
+  filter: drop-shadow(0 0 10px rgba(214, 51, 132, 0.4));
+  margin-bottom: 0.5rem;
+}
 
-  0%,
-  100% {
-    opacity: 0.95;
-    filter: drop-shadow(0 0 2px rgba(207, 10, 44, 0.2));
-  }
+.footer-slogan {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: none;
+  /* Mantener mezcla de mayúsculas/minúsculas para el eslogan */
+  font-style: italic;
+  filter: drop-shadow(0 0 5px rgba(214, 51, 132, 0.3));
+  margin-top: -0.5rem;
+  letter-spacing: 1px;
+}
 
-  50% {
-    opacity: 1;
-    filter: drop-shadow(0 0 8px rgba(207, 10, 44, 0.6));
+.footer-logo-text:hover,
+.footer-slogan:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 15px rgba(255, 0, 127, 0.6));
+}
+
+@keyframes logoGradient {
+  to {
+    background-position: 200% center;
   }
 }
 
@@ -2186,11 +1984,13 @@ hr {
     margin: 0 auto;
   }
 
-  .footer-video {
-    max-width: 180px !important;
-    max-height: 80px !important;
-    width: auto !important;
-    height: auto !important;
+  .footer-logo-text {
+    font-size: 2.4rem;
+  }
+
+  .footer-slogan {
+    font-size: 1rem;
+    margin-top: 0;
   }
 
   .footer-info {
