@@ -2070,16 +2070,19 @@ hr {
   flex: 0 0 250px;
 }
 
-.footer-brand img {
+.footer-brand video {
   width: 100%;
   height: auto;
   display: block;
   filter: brightness(0.9);
   transition: var(--transition);
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
-.footer-brand img:hover {
+.footer-brand video:hover {
   filter: brightness(1.1);
+  transform: scale(1.02);
 }
 
 .footer-info {
@@ -2091,11 +2094,31 @@ hr {
 }
 
 .footer-slogan {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--color-primary);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #cf0a2c;
+  /* Premium Red */
+  display: inline-block;
   margin-bottom: 0.5rem;
   font-style: italic;
+  text-shadow: 0 0 5px rgba(207, 10, 44, 0.3);
+  animation: sloganBreathe 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+@keyframes sloganBreathe {
+
+  0%,
+  100% {
+    opacity: 0.95;
+    filter: drop-shadow(0 0 2px rgba(207, 10, 44, 0.2));
+  }
+
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px rgba(207, 10, 44, 0.6));
+  }
 }
 
 .footer-copyright {
