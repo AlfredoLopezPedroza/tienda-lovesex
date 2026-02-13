@@ -2097,16 +2097,16 @@ hr {
 }
 
 .footer-video {
-  max-width: 300px;
-  max-height: 120px;
-  width: auto;
-  height: auto;
-  display: block;
+  max-width: 300px !important;
+  max-height: 120px !important;
+  width: auto !important;
+  height: auto !important;
+  display: block !important;
   filter: brightness(0.9);
   transition: var(--transition);
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  object-fit: contain;
+  object-fit: contain !important;
 }
 
 .footer-video:hover {
@@ -2187,8 +2187,10 @@ hr {
   }
 
   .footer-video {
-    max-width: 200px;
-    max-height: 90px;
+    max-width: 180px !important;
+    max-height: 80px !important;
+    width: auto !important;
+    height: auto !important;
   }
 
   .footer-info {
