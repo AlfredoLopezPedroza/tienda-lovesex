@@ -49,13 +49,15 @@
       "beneficio": "Control total del ritmo",
       "ficha": "Material: TPE. Tamaño: 23.5 x 3.5 cm. Color sujeto a existencia.",
       "disponible": true,
+      "stock": 1,
       "slug": "dildo-strap-on-dp-strapon",
       "imagen": "dildos/dp-strapon.jpg",
       "galeria": [
         "dildos/dp-strapon.jpg",
         "dildos/dp-strapon-1.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "dp-arnesh",
@@ -68,6 +70,7 @@
       "beneficio": "Placer doble con control vibratorio",
       "ficha": "Material: TPE + Polyester. Dildo hueco. 1 vibración. Incluye 3 baterías AG13. Medidas: Dildo 18.5 x 4.1 cm.",
       "disponible": true,
+      "stock": 0,
       "slug": "arnes-con-dildo-dp-arnesh",
       "imagen": "dildos/dp-arnesh.jpg",
       "galeria": [
@@ -76,7 +79,8 @@
         "dildos/dp-arnesh-2.webp",
         "dildos/dp-arnesh-3.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "dp-34cm",
@@ -89,6 +93,7 @@
       "beneficio": "Placer doble y simultáneo",
       "ficha": "Dildo de doble cabeza. 34 cm por 2 cm. Diseño 'Double-Ended'. Flexible, suave, resistente al agua y no tóxico. Disponible en varios colores.",
       "disponible": true,
+      "stock": 1,
       "slug": "doble-cabeza-dp-34cm",
       "imagen": "dildos/dp-34cm.webp",
       "galeria": [
@@ -96,7 +101,8 @@
         "dildos/dp-34cm-1.jpg",
         "dildos/dp-34cm-2.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "dp-transparente18",
@@ -109,6 +115,7 @@
       "beneficio": "Penetración firme con control total",
       "ficha": "Dildo transparente. Medidas: 5.5 x 5.5 x 18 cm. Material: TPE. Color sujeto a disponibilidad.",
       "disponible": true,
+      "stock": 0,
       "slug": "dildo-transparente-dp-transparente18",
       "imagen": "dildos/dp-transparente18.webp",
       "galeria": [
@@ -117,7 +124,8 @@
         "dildos/dp-transparente18-2.webp",
         "dildos/dp-transparente18-3.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "dp-mrbig",
@@ -130,12 +138,14 @@
       "beneficio": "Sensación de plenitud intensa",
       "ficha": "Dildo nacional tipo realista con testículos. Suave y flexible. Copa de succión compatible con arnés. Libre de ftalatos. Color: natural. Medidas: 22.5 cm largo, 5 cm ancho, 17 cm insertable.",
       "disponible": true,
+      "stock": 0,
       "slug": "dildo-mr-big-natural-dp-mrbig",
       "imagen": "dildos/dp-mrbig.webp",
       "galeria": [
         "dildos/dp-mrbig.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "dp-bicolor",
@@ -148,6 +158,7 @@
       "beneficio": "Control firme y versátil",
       "ficha": "Dildo bicolor con copa de succión fuerte (se adhiere a superficie plana). Hecho de material libre de ftalatos. Forma y textura realista. Compatible con arnés. Material suave. Medidas: 18 cm por 3. Disponible en diferentes colores.",
       "disponible": true,
+      "stock": 0,
       "slug": "dildo-bicolor-dp-bicolor",
       "imagen": "dildos/dp-bicolor.jpeg",
       "galeria": [
@@ -157,7 +168,8 @@
         "dildos/dp-bicolor-3.webp",
         "dildos/dp-bicolor-4.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "dp-cristal3",
@@ -170,13 +182,15 @@
       "beneficio": "Doble estimulación intensa y controlada",
       "ficha": "Dildo de material de cristal (Grado quirúrgico). Resistente a temperaturas. Texturizado. Incluye bolsita para guardarlo. Medidas: 18 cm largo x 4 cm ancho.",
       "disponible": true,
+      "stock": 1,
       "slug": "dildo-jumbo-de-cristal-dp-cristal3",
       "imagen": "dildos/dp-cristal3.webp",
       "galeria": [
         "dildos/dp-cristal3.webp",
         "dildos/dp-cristal3-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "dp-jelly",
@@ -189,6 +203,7 @@
       "beneficio": "Estimulación suave y precisa",
       "ficha": "Material: TPE + ABS / TPE. Medida: 21 cm. Color sujeto a existencia.",
       "disponible": true,
+      "stock": 0,
       "slug": "dildo-21-cm-jelly-dp-jelly",
       "imagen": "dildos/dp-jelly.webp",
       "galeria": [
@@ -196,7 +211,8 @@
         "dildos/dp-jelly-1.webp",
         "dildos/dp-jelly-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "dp-fluorecente",
@@ -209,6 +225,7 @@
       "beneficio": "Estimulación versátil y controlada",
       "ficha": "Dildo arcoíris con efecto fluorescente. Tiene copa de succión. Medidas: 19 cm por 3.3 cm.",
       "disponible": true,
+      "stock": 1,
       "slug": "dildo-fluorescente-dp-fluorecente",
       "imagen": "dildos/dp-fluorecente.jpg",
       "galeria": [
@@ -218,7 +235,8 @@
         "dildos/dp-fluorecente-2.jpg",
         "dildos/dp-fluorecente-3.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "dp-venosonac",
@@ -231,12 +249,14 @@
       "beneficio": "Sensación realista y potente",
       "ficha": "Dildo grande venoso nacional con relieve tipo venas para mayor realismo. Suave, con agradable aroma, trae chupón para adherirse y es compatible con arnés. No tóxico. Medidas: 29 cm x 4 cm. Color sujeto a disponibilidad. Presentación en bolsa.",
       "disponible": true,
+      "stock": 0,
       "slug": "dildo-venoso-dp-venosonac",
       "imagen": "dildos/dp-venosonac.webp",
       "galeria": [
         "dildos/dp-venosonac.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "dp-lancer26",
@@ -249,6 +269,7 @@
       "beneficio": "Control firme y realista",
       "ficha": "Dildo con base (ventosa). Material PVC o TPE. Dimensiones: 26 cm de largo x 4,2 cm de diámetro. Incluye recomendación de desinfección y lubricante a base de agua. Color sujeto a disponibilidad.",
       "disponible": true,
+      "stock": 0,
       "slug": "dildo-con-base-26-dp-lancer26",
       "imagen": "dildos/dp-lancer26.webp",
       "galeria": [
@@ -256,7 +277,8 @@
         "dildos/dp-lancer26-1.webp",
         "dildos/dp-lancer26-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "dp-dobleplacer",
@@ -269,6 +291,7 @@
       "beneficio": "Doble estimulación con manos libres",
       "ficha": "Dildo realista con diseño de doble penetración. Base de succión. Color sujeto a existencia. Tamaño: 18mm * 35 mm.",
       "disponible": true,
+      "stock": 0,
       "slug": "doble-placer-dp-dobleplacer",
       "imagen": "dildos/dp-dobleplacer.webp",
       "galeria": [
@@ -278,7 +301,8 @@
         "dildos/dp-dobleplacer-3.webp",
         "dildos/dp-dobleplacer-4.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "ja-gema",
@@ -291,6 +315,7 @@
       "beneficio": "Entrenamiento anal progresivo y preciso",
       "ficha": "Material: metal grado quirúrgico. Medidas: 7.0 cm x 2.3 cm. Color de gema transparente.",
       "disponible": true,
+      "stock": 4,
       "slug": "plug-metalico-con-gema-chico-ja-gema",
       "imagen": "juguetes-anales/ja-gema.jpg",
       "galeria": [
@@ -298,7 +323,8 @@
         "juguetes-anales/ja-gema-1.jpg",
         "juguetes-anales/ja-gema-2.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "ja-kitty",
@@ -311,6 +337,7 @@
       "beneficio": "Estimulación anal elegante y segura",
       "ficha": "Material: metal grado quirúrgico. Altura total 98 mm (3.85”), diámetro máximo 41 mm (1.61”), diámetro de la base 33 mm (1.29”), tamaño de la gema 31 mm (1.22”), peso 145.6 g (5.13 oz).",
       "disponible": true,
+      "stock": 0,
       "slug": "plug-anal-kitty-mediano-ja-kitty",
       "imagen": "juguetes-anales/ja-kitty.jpg",
       "galeria": [
@@ -318,7 +345,8 @@
         "juguetes-anales/ja-kitty-1.jpg",
         "juguetes-anales/ja-kitty-2.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "ja-corazonch",
@@ -331,6 +359,7 @@
       "beneficio": "Estimulación firme y sofisticada",
       "ficha": "Altura 6.8 cm, diámetro de la base 2.7 cm, peso 62 g (tamaño chico).",
       "disponible": true,
+      "stock": 1,
       "slug": "plug-anal-de-corazon-chico-ja-corazonch",
       "imagen": "juguetes-anales/ja-corazonch.webp",
       "galeria": [
@@ -339,7 +368,8 @@
         "juguetes-anales/ja-corazonch-2.webp",
         "juguetes-anales/ja-corazonch-3.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "ja-conejo",
@@ -352,6 +382,7 @@
       "beneficio": "Estimulación firme con toque sensual",
       "ficha": "Diámetro de la cola 8 cm, longitud visible del plug 7 cm, diámetro máximo del plug 2.8 cm.",
       "disponible": true,
+      "stock": 0,
       "slug": "plug-metalico-con-cola-tipo-conejo-ja-conejo",
       "imagen": "juguetes-anales/ja-conejo.webp",
       "galeria": [
@@ -360,7 +391,8 @@
         "juguetes-anales/ja-conejo-2.webp",
         "juguetes-anales/ja-conejo-3.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "ja-textura",
@@ -373,13 +405,15 @@
       "beneficio": "Estimulación progresiva y controlada",
       "ficha": "Bolas anales de silicón. Medidas: 153 * 18 * 26 mm.",
       "disponible": true,
+      "stock": 1,
       "slug": "bolas-anales-con-textura-ja-textura",
       "imagen": "juguetes-anales/ja-textura.jpg",
       "galeria": [
         "juguetes-anales/ja-textura.jpg",
         "juguetes-anales/ja-textura-1.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "ja-analrecargable",
@@ -392,6 +426,7 @@
       "beneficio": "Masajeador prostático y estimulación por control remoto",
       "ficha": "Masajear eficazmente la glándula prostática y brindar un placer increíble. 10 vibration modes. Ancho máximo 3.2 cm, altura total 10 cm, ancho de la base 6.2 cm.",
       "disponible": true,
+      "stock": 0,
       "slug": "anal-recargable-ja-analrecargable",
       "imagen": "juguetes-anales/ja-analrecargable.webp",
       "galeria": [
@@ -399,7 +434,8 @@
         "juguetes-anales/ja-analrecargable-1.jpg",
         "juguetes-anales/ja-analrecargable-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "ja-zorro",
@@ -412,13 +448,15 @@
       "beneficio": "Estimulación firme con efecto visual provocador",
       "ficha": "Plug metálico mediano. Colores según existencias. Medidas: largo total 47 cm, longitud del plug 6.8 cm, diámetro máximo del plug 2.5 cm",
       "disponible": true,
+      "stock": 1,
       "slug": "plug-anal-con-colita-ja-zorro",
       "imagen": "juguetes-anales/ja-zorro.webp",
       "galeria": [
         "juguetes-anales/ja-zorro.webp",
         "juguetes-anales/ja-zorro-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "ja-silicon",
@@ -431,13 +469,15 @@
       "beneficio": "Inicio anal cómodo y discreto",
       "ficha": "Plug de silicón liso con base de piedra de fantasía en colores. 2.8 cm por 7.3 cm. PD: Presentación en bolsa.",
       "disponible": true,
+      "stock": 0,
       "slug": "plug-anal-silicon-ja-silicon",
       "imagen": "juguetes-anales/ja-silicon.webp",
       "galeria": [
         "juguetes-anales/ja-silicon.webp",
         "juguetes-anales/ja-silicon-1.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "ja-rosario",
@@ -450,13 +490,15 @@
       "beneficio": "Entrenamiento anal progresivo y cómodo",
       "ficha": "ANILLO PARA RETIRAR FÁCILMENTE. MEDIDA: 26 a 28 cm LARGO.",
       "disponible": true,
+      "stock": 1,
       "slug": "rosario-anal-ja-rosario",
       "imagen": "juguetes-anales/ja-rosario.webp",
       "galeria": [
         "juguetes-anales/ja-rosario.webp",
         "juguetes-anales/ja-rosario-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "ja-miniplug",
@@ -469,13 +511,15 @@
       "beneficio": "Inicio anal cómodo y controlado",
       "ficha": "Libre de ftalatos. Color: Rosa. Medidas: 10 cm largo. 1.5 cm ancho inicial. 2.5 cm.",
       "disponible": true,
+      "stock": 1,
       "slug": "mini-plug-anal-rosa-ja-miniplug",
       "imagen": "juguetes-anales/ja-miniplug.webp",
       "galeria": [
         "juguetes-anales/ja-miniplug.webp",
         "juguetes-anales/ja-miniplug-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "ja-prostata",
@@ -488,6 +532,7 @@
       "beneficio": "Estimulación prostática profunda",
       "ficha": "Altura total 10.2 cm, longitud insertable curva 12 cm, diámetro máximo del cuerpo 3.3 cm, diámetros de cuentas 2 cm y 1.8 cm, peso 65.8 g.",
       "disponible": true,
+      "stock": 2,
       "slug": "plug-prostata-con-vibracion-ja-prostata",
       "imagen": "juguetes-anales/ja-prostata.jpg",
       "galeria": [
@@ -498,7 +543,8 @@
         "juguetes-anales/ja-prostata-4.jpeg",
         "juguetes-anales/ja-prostata-5.jpeg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-fundadedal",
@@ -511,6 +557,7 @@
       "beneficio": "Estimulación directa y control total del placer",
       "ficha": "Material: Elastómero flexible. Funda dedal con bala vibradora de pila (incluida). Producto reutilizable y texturizado para mayor estimulación.",
       "disponible": true,
+      "stock": 1,
       "slug": "funda-dedal-con-bala-vibradora-vv-fundadedal",
       "imagen": "vibradores/vv-fundadedal.webp",
       "galeria": [
@@ -521,7 +568,8 @@
         "vibradores/vv-fundadedal-4.jpg",
         "vibradores/vv-fundadedal-5.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-amanraya",
@@ -534,6 +582,7 @@
       "beneficio": "Orgasmos más intensos con control total a distancia",
       "ficha": "Material: ABS + Silicona. 10 Frecuencias. Batería recargable USB. Resistente al agua. Tamaño del producto: 93 * 116 mm. Control inalámbrico.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-amanraya-vv-amanraya",
       "imagen": "vibradores/vv-amanraya.jpg",
       "galeria": [
@@ -542,7 +591,8 @@
         "vibradores/vv-amanraya-2.jpg",
         "vibradores/vv-amanraya-3.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-dolphin",
@@ -555,6 +605,7 @@
       "beneficio": "Estimulación profunda con vibraciones potentes y envolventes",
       "ficha": "Material: Silicon + ABS. 10 frecuencias. Resistente al agua IPX7. Batería recargable. Medidas: 17 x 3.5 cm.",
       "disponible": true,
+      "stock": 0,
       "slug": "vibrador-dolphin-vv-dolphin",
       "imagen": "vibradores/vv-dolphin.webp",
       "galeria": [
@@ -565,7 +616,8 @@
         "vibradores/vv-dolphin-4.webp",
         "vibradores/vv-dolphin-5.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-aquarius",
@@ -578,13 +630,15 @@
       "beneficio": "Vibraciones envolventes que elevan cada experiencia",
       "ficha": "Material: Silicon + ABS. 10 frecuencias. Resistente al agua IPX7. Batería recargable. Medidas: 16.5 x 3.5 cm.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-aquarius-vv-aquarius",
       "imagen": "vibradores/vv-aquarius.jpg",
       "galeria": [
         "vibradores/vv-aquarius.jpg",
         "vibradores/vv-aquarius-1.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-huevo01",
@@ -597,12 +651,14 @@
       "beneficio": "Estimulación directa con vibraciones intensas",
       "ficha": "Material: Grado quirúrgico. Alambrico aprox 1.5 m. Utiliza 2 pilas AA (no incluidas). Se recomienda el uso de lubricante.",
       "disponible": true,
+      "stock": 2,
       "slug": "vibrador-tipo-huevo-vv-huevo01",
       "imagen": "vibradores/vv-huevo01.webp",
       "galeria": [
         "vibradores/vv-huevo01.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-negro",
@@ -615,6 +671,7 @@
       "beneficio": "Estimulación simultánea que maximiza el placer",
       "ficha": "Presentación: Bolsa. Triple estimulador. Una sola velocidad. Requerimientos: Usa pilas. Color sujeto a existencia.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-analvaginal-vv-negro",
       "imagen": "vibradores/vv-negro.jpg",
       "galeria": [
@@ -625,7 +682,8 @@
         "vibradores/vv-negro-4.jpg",
         "vibradores/vv-negro-5.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-vertebrado",
@@ -638,6 +696,7 @@
       "beneficio": "Flexibilidad total para una estimulación más profunda",
       "ficha": "Material: Jelly. Vibrador de diferentes modos de frecuencia. Requerimientos: Usa 2 pilas. Color sujeto a inventario.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-vertebrado-vv-vertebrado",
       "imagen": "vibradores/vv-vertebrado.png",
       "galeria": [
@@ -646,7 +705,8 @@
         "vibradores/vv-vertebrado-2.png",
         "vibradores/vv-vertebrado-3.png"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-dual1",
@@ -659,6 +719,7 @@
       "beneficio": "Doble estimulación que intensifica y acelera el placer",
       "ficha": "Material: silicón. 10 modos de vibración. Requerimientos: 2 pilas AAA (NO INCLUIDAS). Se recomienda uso de lubricante. Color de acuerdo a existencia.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-dual-pila-vv-dual1",
       "imagen": "vibradores/vv-dual1.webp",
       "galeria": [
@@ -669,7 +730,8 @@
         "vibradores/vv-dual1-4.webp",
         "vibradores/vv-dual1-5.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-delfin",
@@ -682,6 +744,7 @@
       "beneficio": "Estimulación directa y poderosa en un diseño compacto",
       "ficha": "Material: ABS de alta calidad. Buena potencia de vibración. Medidas: 125 x 55 mm. Fuente: una pila AA (resistencia 3 horas). Color de acuerdo a existencia.",
       "disponible": true,
+      "stock": 6,
       "slug": "vibrador-delfin-vv-delfin",
       "imagen": "vibradores/vv-delfin.webp",
       "galeria": [
@@ -692,7 +755,8 @@
         "vibradores/vv-delfin-4.jpg",
         "vibradores/vv-delfin-5.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-sirena",
@@ -705,6 +769,7 @@
       "beneficio": "Estimulación precisa que intensifica el placer rápidamente",
       "ficha": "Material: Silicona. Tipo: Punto G. 10 modos de vibración. Recargable. Medidas: Largo 16 cm x Diámetro 3 cm. Color sujeto a inventario.",
       "disponible": true,
+      "stock": 0,
       "slug": "vibrador-cola-de-sirena-vv-sirena",
       "imagen": "vibradores/vv-sirena.webp",
       "galeria": [
@@ -714,7 +779,8 @@
         "vibradores/vv-sirena-3.webp",
         "vibradores/vv-sirena-4.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-funda",
@@ -727,12 +793,14 @@
       "beneficio": "Sensaciones variables en un solo dispositivo práctico",
       "ficha": "Presentación: Bolsa. Incluye vibrador con 4 fundas compatibles con cualquier modelo. 1 sola velocidad. Requerimientos: Usa pilas (no incluidas). Color sujeto a existencia.",
       "disponible": true,
+      "stock": 2,
       "slug": "vibrador-con-4-fundas-vv-funda",
       "imagen": "vibradores/vv-funda.webp",
       "galeria": [
         "vibradores/vv-funda.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-pinzas",
@@ -745,6 +813,7 @@
       "beneficio": "Vibraciones intensas que maximizan la estimulación",
       "ficha": "Material: Materiales seguros. Diseño ergonómico en forma de pinza con textura interna. Fácil de limpiar y transportar.",
       "disponible": true,
+      "stock": 2,
       "slug": "vibrador-pinzas-vv-pinzas",
       "imagen": "vibradores/vv-pinzas.webp",
       "galeria": [
@@ -754,7 +823,8 @@
         "vibradores/vv-pinzas-3.webp",
         "vibradores/vv-pinzas-4.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-brocha",
@@ -767,6 +837,7 @@
       "beneficio": "Estimulación precisa y seductora en cada contacto",
       "ficha": "Material: Cerdas suaves y mango rígido. 1 Vibración. Diseño discreto. Requerimientos: Usa pila AAA.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-tipo-brocha-vv-brocha",
       "imagen": "vibradores/vv-brocha.webp",
       "galeria": [
@@ -775,7 +846,8 @@
         "vibradores/vv-brocha-2.webp",
         "vibradores/vv-brocha-3.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-martillo",
@@ -788,6 +860,7 @@
       "beneficio": "Doble estimulación que maximiza el placer y la intensidad",
       "ficha": "Material: Silicona. 3 modos de vibración. Recargable. Color sujeto a existencia.",
       "disponible": true,
+      "stock": 0,
       "slug": "vibrador-martillo-vv-martillo",
       "imagen": "vibradores/vv-martillo.jpg",
       "galeria": [
@@ -796,7 +869,8 @@
         "vibradores/vv-martillo-2.jpg",
         "vibradores/vv-martillo-3.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-lala",
@@ -809,6 +883,7 @@
       "beneficio": "Estimulación potente y precisa en un diseño compacto",
       "ficha": "Material: Silicona + ABS. 10 frecuencias. Batería recargable USB. Resistente al agua. Tamaño: 11 * 3.7 cm.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-lala-vv-lala",
       "imagen": "vibradores/vv-lala.webp",
       "galeria": [
@@ -818,7 +893,8 @@
         "vibradores/vv-lala-3.webp",
         "vibradores/vv-lala-4.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-chuck",
@@ -831,13 +907,15 @@
       "beneficio": "Estimulación intensa con sensaciones realistas",
       "ficha": "Material: Suave. Vibrador con velocidad ajustable (12 frecuencias). Resistente al agua y soporte de succión. Medida: 9.8 pulgadas. Color sujeto a existencias.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-chuck-vv-chuck",
       "imagen": "vibradores/vv-chuck.webp",
       "galeria": [
         "vibradores/vv-chuck.webp",
         "vibradores/vv-chuck-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-fundaliso",
@@ -850,6 +928,7 @@
       "beneficio": "Control preciso de la intensidad para un placer a tu ritmo",
       "ficha": "Material: Gel texturizado. Velocidad gradual y resistente al agua. Medidas: 17.7 cm x 3.2 cm. Alimentación: 2 pilas AAA.",
       "disponible": true,
+      "stock": 0,
       "slug": "vibrador-funda-liso-vv-fundaliso",
       "imagen": "vibradores/vv-fundaliso.jpg",
       "galeria": [
@@ -859,7 +938,8 @@
         "vibradores/vv-fundaliso-3.jpg",
         "vibradores/vv-fundaliso-4.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-lure85",
@@ -872,12 +952,14 @@
       "beneficio": "Estimulación profunda con sensaciones realistas",
       "ficha": "Velocidad gradual en la base. Tamaño del producto: 20.7 x 3.5 cm. Alimentación: 2 baterías AA.",
       "disponible": true,
+      "stock": 0,
       "slug": "vibrador-lure-85-pulgadas-vv-lure85",
       "imagen": "vibradores/vv-lure85.webp",
       "galeria": [
         "vibradores/vv-lure85.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-balausb",
@@ -890,12 +972,14 @@
       "beneficio": "Estimulación profunda con control total de la intensidad",
       "ficha": "Material: Silicona médica segura y respetuosa con el medio ambiente. Suave, inodora y fácil de limpiar. Carga USB compatible con banco de energía, computadora o enchufe.",
       "disponible": true,
+      "stock": 1,
       "slug": "bala-vibradora-recargable-vv-balausb",
       "imagen": "vibradores/vv-balausb.webp",
       "galeria": [
         "vibradores/vv-balausb.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-balac",
@@ -908,13 +992,15 @@
       "beneficio": "Estimulación directa e intensa",
       "ficha": "Material: Tipo gel grado quirúrgico. Ideal para estimular zonas erógenas. Requerimientos: Utiliza 2 pilas AA (no incluidas). Se recomienda el uso de lubricante. Color sujeto a disponibilidad.",
       "disponible": true,
+      "stock": 1,
       "slug": "bala-vibradora-en-forma-de-conejo-vv-balac",
       "imagen": "vibradores/vv-balac.webp",
       "galeria": [
         "vibradores/vv-balac.webp",
         "vibradores/vv-balac-1.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-app",
@@ -927,6 +1013,7 @@
       "beneficio": "Estimulación personalizada desde tu smartphone",
       "ficha": "Material: Silicona médica + ABS. Función: 10 modos. APP control bluetooth únicamente para IOS. Dimensión: 90 x 35 mm. Color de acuerdo a inventario.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-con-aplicacion-para-ios-vv-app",
       "imagen": "vibradores/vv-app.webp",
       "galeria": [
@@ -935,7 +1022,8 @@
         "vibradores/vv-app-2.webp",
         "vibradores/vv-app-3.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-conejo",
@@ -948,6 +1036,7 @@
       "beneficio": "Estimulación directa y potente con control total en tu mano",
       "ficha": "Material: ABS. Libre de ftalatos y resistente al agua. Medidas: Masajeador 9.5 x 2.5 cm / Manga 9 x 3.25 cm. Requerimientos: Utiliza 1 pila AA (no incluida).",
       "disponible": true,
+      "stock": 2,
       "slug": "pocket-party-vv-conejo",
       "imagen": "vibradores/vv-conejo.webp",
       "galeria": [
@@ -959,7 +1048,8 @@
         "vibradores/vv-conejo-5.webp",
         "vibradores/vv-conejo-6.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-dual2",
@@ -972,12 +1062,14 @@
       "beneficio": "Placer manos libres con vibración potente",
       "ficha": "Material: Silicona. 10 modos de vibración. Carga magnética (duración aprox. 60 min). Estimulación anal y vaginal. Se recomienda el uso de lubricante.",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-dual-vv-dual2",
       "imagen": "vibradores/vv-dual2.webp",
       "galeria": [
         "vibradores/vv-dual2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vv-pinzaspezon",
@@ -990,13 +1082,15 @@
       "beneficio": "Estimulación vibratoria directa que potencia el placer",
       "ficha": "Material: ABS. Pinzas para pezones con vibración y clips elásticos. Control rotatorio y botón de encendido/apagado. Medidas: Bala 2.5 cm, Clip 5.5 cm, Control 9 x 3 cm.",
       "disponible": true,
+      "stock": 0,
       "slug": "pinzas-para-pezones-con-vibracion-vv-pinzaspezon",
       "imagen": "vibradores/vv-pinzaspezon.webp",
       "galeria": [
         "vibradores/vv-pinzaspezon.webp",
         "vibradores/vv-pinzaspezon-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-conejorealista",
@@ -1009,6 +1103,7 @@
       "beneficio": "Estimulación intensa, variada y completamente personalizable",
       "ficha": "Silicona de alta calidad · 22 cm total / 17 cm penetración · Ø 4 cm · Ventosa de succión · Control remoto (AAA) · 12 modos vibración / vai-e-vem / rotación · Función calentamiento · Recargable USB",
       "disponible": true,
+      "stock": 1,
       "slug": "vibrador-conejo-realista-inalambrico-vv-conejorealista",
       "imagen": "vibradores/vv-conejorealista.jpg",
       "galeria": [
@@ -1019,7 +1114,97 @@
         "vibradores/vv-conejorealista-4.jpg",
         "vibradores/vv-conejorealista-5.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
+    },
+    {
+      "sku": "vv-welove",
+      "nombre": "HUEVO VIBRADOR INALÁMBRICO CON APP",
+      "categoria": "VIBRADORES",
+      "precio_base": 450,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "VIBRADOR con App LILO WE LOVE. Experimenta nuevas sensaciones íntimas sola o con tu pareja, usando tu celular.",
+      "beneficio": "Estimulación vibratoria desde tu teléfono celular",
+      "ficha": "Desenrosca la cubierta e inserta las pilas. Enciende el Bluetooth y la red inalámbrica. Escanea el Código QR y descarga la App: versiones para Android y Apple. Material: gel de sílice + ABS",
+      "disponible": true,
+      "stock": 1,
+      "slug": "huevo-vibrador-inalambrico-con-app-vv-welove",
+      "imagen": "vibradores/vv-welove.jpeg",
+      "galeria": [
+        "vibradores/vv-welove.jpeg",
+        "vibradores/vv-welove-1.webp",
+        "vibradores/vv-welove-2.webp",
+        "vibradores/vv-welove-3.webp"
+      ],
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
+    },
+    {
+      "sku": "vv-puntog",
+      "nombre": "VIBRADOR PUNTO G",
+      "categoria": "VIBRADORES",
+      "precio_base": 500,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "VIBRADOR RABBIT PUNTO G, estimulador de clítoris, masajeador de consolador vaginal y anal. Juguete sexual para uso individual o en pareja.",
+      "beneficio": "Vibración y estimulación para tu Punto G",
+      "ficha": "No es recargable: usa 2 pilas AAA. Cuenta con 10 modos de vibración. Repelente al agua. Medidas en las imágenes del producto. Material: gel de sílice + ABS",
+      "disponible": true,
+      "stock": 1,
+      "slug": "vibrador-punto-g-vv-puntog",
+      "imagen": "vibradores/vv-puntog.jpg",
+      "galeria": [
+        "vibradores/vv-puntog.jpg",
+        "vibradores/vv-puntog-1.webp",
+        "vibradores/vv-puntog-2.webp",
+        "vibradores/vv-puntog-3.webp"
+      ],
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
+    },
+    {
+      "sku": "vv-color",
+      "nombre": "VIBRADOR CONSOLADOR PENE VENOSO",
+      "categoria": "VIBRADORES",
+      "precio_base": 500,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "VIBRADOR SILICONA SUAVE Y REALISTA, CURVO: listo para estimular poderosamente el Punto G y esfinter de manera efectiva. Varias velocidades de vibración.",
+      "beneficio": "Vibraciones estimulantes para tu Punto G y esfinter",
+      "ficha": "18 cm de largo · 4 cm de diámetro · Alimentación por pila · Silicona médica TPE · 2 intensidades · 2 modos de vibración",
+      "disponible": true,
+      "stock": 1,
+      "slug": "vibrador-consolador-pene-venoso-vv-color",
+      "imagen": "vibradores/vv-color.webp",
+      "galeria": [
+        "vibradores/vv-color.webp"
+      ],
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
+    },
+    {
+      "sku": "vv-realcontrol",
+      "nombre": "VIBRADOR REALISTA CON BASE Y CONTROL",
+      "categoria": "VIBRADORES",
+      "precio_base": 450,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "VIBRADOR REALISTA CON BASE Y CONTROL. Descubre el placer con este dildo vibrador diseñado para quien busca una experiencia satisfactoria y realista.",
+      "beneficio": "Vibraciones y estimulos directos a tu zona íntima",
+      "ficha": "17 cm de largo · 3.6 cm de diámetro · Alimentación por batería · Autonomía 3 h · 7 modos de vibración · Control remoto",
+      "disponible": true,
+      "stock": 1,
+      "slug": "vibrador-realista-con-base-y-control-vv-realcontrol",
+      "imagen": "vibradores/vv-realcontrol.webp",
+      "galeria": [
+        "vibradores/vv-realcontrol.webp",
+        "vibradores/vv-realcontrol-1.webp",
+        "vibradores/vv-realcontrol-2.webp",
+        "vibradores/vv-realcontrol-3.webp"
+      ],
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-siyi25",
@@ -1032,6 +1217,7 @@
       "beneficio": "Máximo confort y fluidez en cada movimiento",
       "ficha": "Lubricante íntimo natural soluble al agua. Inodoro y de textura suave. Contenido: 25ml.",
       "disponible": true,
+      "stock": 23,
       "slug": "lubricante-natural-siyi-bolsillo-lc-siyi25",
       "imagen": "lubricantes-cremas/lc-siyi25.webp",
       "galeria": [
@@ -1039,7 +1225,8 @@
         "lubricantes-cremas/lc-siyi25-1.webp",
         "lubricantes-cremas/lc-siyi25-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-siyi50",
@@ -1052,10 +1239,12 @@
       "beneficio": "Deslizamiento ultra-suave",
       "ficha": "Lubricante íntimo natural soluble al agua. Inodoro y de textura suave. Contenido: 50ml.",
       "disponible": true,
+      "stock": 2,
       "slug": "lubricante-natural-siyi-lc-siyi50",
       "imagen": "pendiente.webp",
       "galeria": [],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-touchan",
@@ -1068,6 +1257,7 @@
       "beneficio": "Mayor comodidad y elasticidad",
       "ficha": "Proporciona alivio analgésico reduciendo el dolor por frotamiento y suaviza la piel. Lubricante anal y vaginal compatible con preservativos y juguetes sexuales. Presentación de 100ml, no mancha.",
       "disponible": true,
+      "stock": 2,
       "slug": "touch-analgesico-lc-touchan",
       "imagen": "lubricantes-cremas/lc-touchan.webp",
       "galeria": [
@@ -1076,7 +1266,8 @@
         "lubricantes-cremas/lc-touchan-2.webp",
         "lubricantes-cremas/lc-touchan-3.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-anasp",
@@ -1089,6 +1280,7 @@
       "beneficio": "Mayor confort y relajación para disfrutar sin molestias",
       "ficha": "Efectos: Alivia el dolor, mejora elasticidad y mejora lubricación. Contenido: 30 ml. Zonas de aplicación: Ano, Pene, Vagina. Base agua.",
       "disponible": true,
+      "stock": 1,
       "slug": "lubricante-analgesico-de-sabor-platano-lc-anasp",
       "imagen": "lubricantes-cremas/lc-anasp.webp",
       "galeria": [
@@ -1096,7 +1288,8 @@
         "lubricantes-cremas/lc-anasp-1.webp",
         "lubricantes-cremas/lc-anasp-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-analfresa",
@@ -1109,6 +1302,7 @@
       "beneficio": "Sensaciones intensificadas con máximo confort",
       "ficha": "Sabor Fresas con crema de la marca Silk Touch. Efectos: Alivia el dolor, mejora la elasticidad y la lubricación. Volumen de la unidad: 50 ml. Zonas de aplicación: Ano, Pene, Vagina. Base agua.",
       "disponible": true,
+      "stock": 1,
       "slug": "lubricante-analgesico-de-fresas-lc-analfresa",
       "imagen": "lubricantes-cremas/lc-analfresa.webp",
       "galeria": [
@@ -1116,7 +1310,8 @@
         "lubricantes-cremas/lc-analfresa-1.webp",
         "lubricantes-cremas/lc-analfresa-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-analub",
@@ -1129,13 +1324,15 @@
       "beneficio": "Aplicación exacta con máxima comodidad",
       "ficha": "Lubricante anal en gel. Desensibilizador de fácil uso para más placer en pareja. Contenido: 15.44 ml / 15 grs.",
       "disponible": true,
+      "stock": 4,
       "slug": "analub-lc-analub",
       "imagen": "lubricantes-cremas/lc-analub.webp",
       "galeria": [
         "lubricantes-cremas/lc-analub.webp",
         "lubricantes-cremas/lc-analub-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-estrechador",
@@ -1148,12 +1345,14 @@
       "beneficio": "Mayor sensación de firmeza y estimulación.",
       "ficha": "Tipo gel que ayuda a contraer las paredes vaginales. Funciona como lubricante de base agua. Contenido: 30 ml.",
       "disponible": true,
+      "stock": 0,
       "slug": "estrechador-vaginal-tout-temps-lc-estrechador",
       "imagen": "lubricantes-cremas/lc-estrechador.webp",
       "galeria": [
         "lubricantes-cremas/lc-estrechador.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "lc-sensitive",
@@ -1166,13 +1365,15 @@
       "beneficio": "Estimulación inmediata con sensaciones más intensas",
       "ficha": "Gel estimulante femenino diseñado para ayudar a conseguir orgasmos múltiples y más intensos. Contenido: 15.64 ml.",
       "disponible": true,
+      "stock": 0,
       "slug": "erotic-sensitive-15-ml-lc-sensitive",
       "imagen": "lubricantes-cremas/lc-sensitive.webp",
       "galeria": [
         "lubricantes-cremas/lc-sensitive.webp",
         "lubricantes-cremas/lc-sensitive-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "lc-pleasure",
@@ -1185,13 +1386,15 @@
       "beneficio": "Estimulación sensorial que amplifica el placer",
       "ficha": "Estimulante emocionante a base de agua con sensación de hormigueo. Ofrece una nueva capa de emoción a los momentos íntimos con una oleada de placer. Calidad ID Glide con estímulo añadido. Contenido: 12 ml.",
       "disponible": true,
+      "stock": 2,
       "slug": "id-pleasure-tubo-lc-pleasure",
       "imagen": "lubricantes-cremas/lc-pleasure.webp",
       "galeria": [
         "lubricantes-cremas/lc-pleasure.webp",
         "lubricantes-cremas/lc-pleasure-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-aimani",
@@ -1204,6 +1407,7 @@
       "beneficio": "Estimulación focalizada para sensaciones más intensa",
       "ficha": "Gel diseñado para contribuir a encuentros sexuales placenteros y facilitar la obtención de orgasmos. Extractos naturales, sin irritación. Marca: Aimani. Contenido: 50 ml.",
       "disponible": true,
+      "stock": 1,
       "slug": "gel-multiorgasmico-lc-aimani",
       "imagen": "lubricantes-cremas/lc-aimani.webp",
       "galeria": [
@@ -1211,7 +1415,8 @@
         "lubricantes-cremas/lc-aimani-1.webp",
         "lubricantes-cremas/lc-aimani-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-4en1",
@@ -1224,12 +1429,14 @@
       "beneficio": "Estimulación térmica que amplifica la experiencia",
       "ficha": "Lubricante base agua multiusos ideal para masajes, comestible y con propiedades termogénicas. Sabores disponibles de acuerdo a existencia. Contenido: 30 ml.",
       "disponible": true,
+      "stock": 3,
       "slug": "lubricantes-4-en-1-lc-4en1",
       "imagen": "lubricantes-cremas/lc-4en1.webp",
       "galeria": [
         "lubricantes-cremas/lc-4en1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-feromonasel",
@@ -1242,12 +1449,14 @@
       "beneficio": "Aumenta el atractivo y la huella sensorial",
       "ficha": "Perfume con feromonas para él, diseñado para volverse irresistible con un agradable aroma para uso diario. Contenido: 60 ml.",
       "disponible": true,
+      "stock": 1,
       "slug": "feromonas-para-el-lc-feromonasel",
       "imagen": "lubricantes-cremas/lc-feromonasel.webp",
       "galeria": [
         "lubricantes-cremas/lc-feromonasel.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-feromonasella",
@@ -1260,12 +1469,14 @@
       "beneficio": "Refuerza el magnetismo y la atracción",
       "ficha": "Perfume con feromonas para ella, diseñado para volverse irresistible. Aroma agradable para uso diario. Contenido: 60 ml.",
       "disponible": true,
+      "stock": 0,
       "slug": "feromonas-para-ella-lc-feromonasella",
       "imagen": "lubricantes-cremas/lc-feromonasella.webp",
       "galeria": [
         "lubricantes-cremas/lc-feromonasella.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "lc-kiss",
@@ -1278,6 +1489,7 @@
       "beneficio": "Estimulación térmica que multiplica el placer",
       "ficha": "Producto diseñado para sensaciones térmicas durante el sexo oral. Ofrece métodos de uso que combinan efectos de frío y calor para intensificar el placer. Contenido: 10 ml c/u.",
       "disponible": true,
+      "stock": 1,
       "slug": "sexo-oral-calor-y-frio-lc-kiss",
       "imagen": "lubricantes-cremas/lc-kiss.webp",
       "galeria": [
@@ -1285,7 +1497,8 @@
         "lubricantes-cremas/lc-kiss-1.webp",
         "lubricantes-cremas/lc-kiss-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-lubcannabis",
@@ -1298,13 +1511,15 @@
       "beneficio": "Suavidad superior con máxima sensibilidad",
       "ficha": "Aceite lubricante con cannabis. Contenido: 30 ml.",
       "disponible": true,
+      "stock": 1,
       "slug": "hemp-tout-temps-30-ml-lc-lubcannabis",
       "imagen": "lubricantes-cremas/lc-lubcannabis.webp",
       "galeria": [
         "lubricantes-cremas/lc-lubcannabis.webp",
         "lubricantes-cremas/lc-lubcannabis-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-algodon",
@@ -1317,12 +1532,14 @@
       "beneficio": "Estimulación cálida con sabor delicioso",
       "ficha": "Base agua · Comestible · Sabor algodón de azúcar · Efecto calor · Uso anal · 20 ml",
       "disponible": true,
+      "stock": 1,
       "slug": "lubricante-love-is-love-20-ml-lc-algodon",
       "imagen": "lubricantes-cremas/lc-algodon.webp",
       "galeria": [
         "lubricantes-cremas/lc-algodon.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-feel4en1",
@@ -1335,13 +1552,15 @@
       "beneficio": "Estimulación térmica que amplifica la experiencia",
       "ficha": "Producto 4 en 1: lubricante, para masaje, térmico y comestible. Sabor de acuerdo a existencia. Contenido: 30 ml.",
       "disponible": true,
+      "stock": 0,
       "slug": "lubricante-4-en-1-feel-lc-feel4en1",
       "imagen": "lubricantes-cremas/lc-feel4en1.webp",
       "galeria": [
         "lubricantes-cremas/lc-feel4en1.webp",
         "lubricantes-cremas/lc-feel4en1-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "af-collar",
@@ -1354,6 +1573,7 @@
       "beneficio": "Mayor control y excitación en dinámicas fetiche",
       "ficha": "Arnés fetiche para adultos, material sintético resistente y cómodo, diseño ajustable para hombres o mujeres, compatible con juegos BDSM y accesorios sexuales.",
       "disponible": true,
+      "stock": 4,
       "slug": "collar-af-collar",
       "imagen": "arnes-fetish/af-collar.webp",
       "galeria": [
@@ -1362,7 +1582,8 @@
         "arnes-fetish/af-collar-2.jpg",
         "arnes-fetish/af-collar-3.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "af-pinzas",
@@ -1375,13 +1596,15 @@
       "beneficio": "Estimulación intensa y controlada",
       "ficha": "Pinzas para pezones para adultos, diseño premium de uso fetiche, una unidad, compatibles con juegos eróticos y BDSM ligero.",
       "disponible": true,
+      "stock": 1,
       "slug": "pinzas-para-pezones-af-pinzas",
       "imagen": "arnes-fetish/af-pinzas.jpg",
       "galeria": [
         "arnes-fetish/af-pinzas.jpg",
         "arnes-fetish/af-pinzas-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "af-7pz",
@@ -1394,6 +1617,7 @@
       "beneficio": "Control, sumisión y placer en un solo set",
       "ficha": "Kit bondage diseñado para juegos sexuales estilo BDSM. Incluye 7 piezas, entre ellas una mordaza ajustable con orificios para facilitar la respiración y una soga de bondage de algodón suave.",
       "disponible": true,
+      "stock": 1,
       "slug": "kit-bondage-7-pz-af-7pz",
       "imagen": "arnes-fetish/af-7pz.webp",
       "galeria": [
@@ -1402,7 +1626,8 @@
         "arnes-fetish/af-7pz-2.jpg",
         "arnes-fetish/af-7pz-3.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "af-esposas",
@@ -1415,6 +1640,7 @@
       "beneficio": "Sumisión aterciopelada",
       "ficha": "Incluye juego de llaves. Color de acuerdo a inventario. Presentación en bolsa.",
       "disponible": true,
+      "stock": 1,
       "slug": "esposas-peluche-af-esposas",
       "imagen": "arnes-fetish/af-esposas.jpg",
       "galeria": [
@@ -1422,7 +1648,8 @@
         "arnes-fetish/af-esposas-1.jpg",
         "arnes-fetish/af-esposas-2.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "af-kitnegro",
@@ -1435,13 +1662,15 @@
       "beneficio": "Dominio y estimulación con mayor confort",
       "ficha": "Kit de fetish que incluye látigo y antifaz. Ideal para complementar juegos de rol y experiencias sensoriales.",
       "disponible": true,
+      "stock": 0,
       "slug": "kit-fetish-af-kitnegro",
       "imagen": "arnes-fetish/af-kitnegro.webp",
       "galeria": [
         "arnes-fetish/af-kitnegro.webp",
         "arnes-fetish/af-kitnegro-1.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "af-mordaza",
@@ -1454,13 +1683,15 @@
       "beneficio": "Control y excitación con máximo confort",
       "ficha": "Bola de cristal hipoalergénico de 4 cm de diámetro, correa de piel suave ajustable, acabado premium, dimensiones del producto 6.99 × 10.16 × 20.32 cm, peso aproximado 170 g.",
       "disponible": true,
+      "stock": 2,
       "slug": "mordaza-para-la-boca-af-mordaza",
       "imagen": "arnes-fetish/af-mordaza.webp",
       "galeria": [
         "arnes-fetish/af-mordaza.webp",
         "arnes-fetish/af-mordaza-1.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "mb-bocalengua",
@@ -1473,6 +1704,7 @@
       "beneficio": "Estimulación oral realista y envolvente",
       "ficha": "Masturbador de boca texturizado por dentro para una experiencia realista. Imágenes ilustrativas.",
       "disponible": true,
+      "stock": 0,
       "slug": "masturbador-boca-lengua-mb-bocalengua",
       "imagen": "masturbadores-bombas/mb-bocalengua.webp",
       "galeria": [
@@ -1481,7 +1713,8 @@
         "masturbadores-bombas/mb-bocalengua-2.jpg",
         "masturbadores-bombas/mb-bocalengua-3.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "mb-evenbiger",
@@ -1494,6 +1727,7 @@
       "beneficio": "Estimulación realista y envolvente",
       "ficha": "Masturbador suave realístico fabricado en material TPE. Medidas: 80 mm x 80 mm x 160 mm. Peso: 230 g.",
       "disponible": true,
+      "stock": 1,
       "slug": "masturbador-even-biger-mb-evenbiger",
       "imagen": "masturbadores-bombas/mb-evenbiger.webp",
       "galeria": [
@@ -1501,7 +1735,8 @@
         "masturbadores-bombas/mb-evenbiger-1.jpg",
         "masturbadores-bombas/mb-evenbiger-2.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "mb-bombamen",
@@ -1514,6 +1749,7 @@
       "beneficio": "Estimulación y expansión controlada",
       "ficha": "Tubo de ABS médico, anticaída y antigrietas. Ventosa manual fácil de operar con escala precisa. El bombeo aumenta el flujo sanguíneo al área del pene para estimular una erección más firme. Paquete Deluxe (con Airbag).",
       "disponible": true,
+      "stock": 1,
       "slug": "bomba-de-vacio-manual-mb-bombamen",
       "imagen": "masturbadores-bombas/mb-bombamen.webp",
       "galeria": [
@@ -1523,7 +1759,8 @@
         "masturbadores-bombas/mb-bombamen-3.webp",
         "masturbadores-bombas/mb-bombamen-4.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "mb-huevo",
@@ -1536,13 +1773,15 @@
       "beneficio": "Estimulación intensa con máximo contacto",
       "ficha": "Masturbador masculino desechable y discreto, interior con textura tipo telaraña Spider de alta fricción, lubricación incluida, material elástico adaptable a todos los tamaños, medidas 6 × 4 × 4 cm.",
       "disponible": true,
+      "stock": 1,
       "slug": "huevo-masturbador-tenga-mb-huevo",
       "imagen": "masturbadores-bombas/mb-huevo.webp",
       "galeria": [
         "masturbadores-bombas/mb-huevo.webp",
         "masturbadores-bombas/mb-huevo-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "mb-juanita",
@@ -1555,13 +1794,15 @@
       "beneficio": "Estimulación realista y placentera",
       "ficha": "Medidas: 14 cm Largo x 6 cm.",
       "disponible": true,
+      "stock": 1,
       "slug": "masturbador-juanita-mb-juanita",
       "imagen": "masturbadores-bombas/mb-juanita.webp",
       "galeria": [
         "masturbadores-bombas/mb-juanita.webp",
         "masturbadores-bombas/mb-juanita-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "mb-bombagm",
@@ -1574,6 +1815,7 @@
       "beneficio": "Estimulación y control personalizado",
       "ficha": "Bomba de vacío diseñada para agrandar el pene. Fabricada en material PC + ABS. Incluye accesorios y cuenta con un tamaño de 18 * 5 cm.",
       "disponible": true,
+      "stock": 0,
       "slug": "bomba-manual-con-accesorios-mb-bombagm",
       "imagen": "masturbadores-bombas/mb-bombagm.webp",
       "galeria": [
@@ -1581,7 +1823,8 @@
         "masturbadores-bombas/mb-bombagm-1.webp",
         "masturbadores-bombas/mb-bombagm-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "fa-dragonvib",
@@ -1594,6 +1837,7 @@
       "beneficio": "Mayor duración y estimulación en pareja",
       "ficha": "Funda vibradora extensora para pene, material TPE suave y elástico no tóxico, diseño con vibración y anillo testicular integrado, extensor hasta 9.6 cm, compatible con lubricante a base de agua.",
       "disponible": true,
+      "stock": 2,
       "slug": "funda-dragon-con-vibracion-fa-dragonvib",
       "imagen": "fundas-anillos/fa-dragonvib.webp",
       "galeria": [
@@ -1604,7 +1848,8 @@
         "fundas-anillos/fa-dragonvib-4.webp",
         "fundas-anillos/fa-dragonvib-5.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-silicon3",
@@ -1617,6 +1862,7 @@
       "beneficio": "Erecciones más firmes y duraderas",
       "ficha": "Anillo de pene doble para eje y escroto, silicona de grado alimenticio no porosa, libre de látex y ftalatos, ayuda a restringir suavemente el flujo sanguíneo para mayor firmeza y duración.",
       "disponible": true,
+      "stock": 2,
       "slug": "anillo-con-extension-fa-silicon3",
       "imagen": "fundas-anillos/fa-silicon3.webp",
       "galeria": [
@@ -1625,7 +1871,8 @@
         "fundas-anillos/fa-silicon3-2.jpg",
         "fundas-anillos/fa-silicon3-3.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-silicon4",
@@ -1638,6 +1885,7 @@
       "beneficio": "Erecciones más firmes y duraderas",
       "ficha": "Anillo para pene reutilizable de silicona suave y elástica, diseño ajustable para distintas circunferencias, ayuda a mantener la erección al restringir suavemente el flujo sanguíneo.",
       "disponible": true,
+      "stock": 2,
       "slug": "anillo-extension-con-estimulador-fa-silicon4",
       "imagen": "fundas-anillos/fa-silicon4.webp",
       "galeria": [
@@ -1646,7 +1894,8 @@
         "fundas-anillos/fa-silicon4-2.jpg",
         "fundas-anillos/fa-silicon4-3.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-kitanillos",
@@ -1659,6 +1908,7 @@
       "beneficio": "Mayor duración con estimulación divertida",
       "ficha": "Set de 4 anillos para pene, material silicona suave, forma estrella, ajustables, sin vibración ni batería, formato pack, reutilizables, brillo en la oscuridad, uso para adultos.",
       "disponible": true,
+      "stock": 1,
       "slug": "kit-de-anillos-4-pz-fa-kitanillos",
       "imagen": "fundas-anillos/fa-kitanillos.webp",
       "galeria": [
@@ -1666,7 +1916,8 @@
         "fundas-anillos/fa-kitanillos-1.webp",
         "fundas-anillos/fa-kitanillos-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-transparente",
@@ -1679,6 +1930,7 @@
       "beneficio": "Mayor duración y estimulación en pareja",
       "ficha": "Funda extensora vibratoria para pene, material silicona segura para el cuerpo, ultra flexible y elástica, ayuda a reducir sensibilidad y retardar la eyaculación, textura con venas.",
       "disponible": true,
+      "stock": 0,
       "slug": "funda-transparente-fa-transparente",
       "imagen": "fundas-anillos/fa-transparente.jpg",
       "galeria": [
@@ -1687,7 +1939,8 @@
         "fundas-anillos/fa-transparente-3.jpg",
         "fundas-anillos/fa-transparente-4.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "fa-mano",
@@ -1700,13 +1953,15 @@
       "beneficio": "Estimulación sensorial suave e intensa",
       "ficha": "Guante de masaje para mano derecha, material silicona no tóxica ultra suave, diseño hueco transpirable, elástico y reutilizable, fácil de limpiar y secar al aire, cómodo para baño y masajes.",
       "disponible": true,
+      "stock": 1,
       "slug": "mano-texturizada-fa-mano",
       "imagen": "fundas-anillos/fa-mano.webp",
       "galeria": [
         "fundas-anillos/fa-mano.webp",
         "fundas-anillos/fa-mano-1.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-descubierta",
@@ -1719,12 +1974,14 @@
       "beneficio": "Comodidad suave y versátil",
       "ficha": "Accesorio con relleno de poliéster, dimensiones 10 cm, peso 0.2 kg, contenido del empaque 1 unidad.",
       "disponible": true,
+      "stock": 2,
       "slug": "funda-descubierta-fa-descubierta",
       "imagen": "fundas-anillos/fa-descubierta.webp",
       "galeria": [
         "fundas-anillos/fa-descubierta.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-anillorecargable",
@@ -1737,6 +1994,7 @@
       "beneficio": "Erecciones más firmes y mayor control de la eyaculación",
       "ficha": "Silicona flexible, doble anillo con motor de 10 vibraciones, carga magnética USB, resistente al agua, diámetros internos 32/47/62 mm, altura total 72 mm, grosor 8 mm.",
       "disponible": true,
+      "stock": 0,
       "slug": "anillo-de-pene-con-vibracion-retardador-de-eyaculacion-fa-anillorecargable",
       "imagen": "fundas-anillos/fa-anillorecargable.jpg",
       "galeria": [
@@ -1748,7 +2006,8 @@
         "fundas-anillos/fa-anillorecargable-4.jpg",
         "fundas-anillos/fa-anillorecargable-5.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "fa-anillocontrol",
@@ -1761,6 +2020,7 @@
       "beneficio": "Estimulación simultánea",
       "ficha": "Silicona líquida grado médico, vibrador con control remoto, recargable USB y resistente al agua, tamaño 4.5 × 8.5 × 11.5 cm, incluye anillo, control y cable de carga.",
       "disponible": true,
+      "stock": 0,
       "slug": "anillo-recargable-con-control-fa-anillocontrol",
       "imagen": "fundas-anillos/fa-anillocontrol.webp",
       "galeria": [
@@ -1774,7 +2034,8 @@
         "fundas-anillos/fa-anillocontrol-7.webp",
         "fundas-anillos/fa-anillocontrol-8.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "fa-silicon2",
@@ -1787,6 +2048,7 @@
       "beneficio": "Erecciones más duras",
       "ficha": "Silicona flexible e inodora, diseño doble elástico con múltiples formas de uso, cómodo y reutilizable para sesiones prolongadas.",
       "disponible": true,
+      "stock": 2,
       "slug": "anillo-silicon-dual-fa-silicon2",
       "imagen": "fundas-anillos/fa-silicon2.webp",
       "galeria": [
@@ -1795,7 +2057,8 @@
         "fundas-anillos/fa-silicon2-2.webp",
         "fundas-anillos/fa-silicon2-3.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-condones",
@@ -1808,6 +2071,7 @@
       "beneficio": "Más placer y estimulación segura",
       "ficha": "Contenido: Caja con 2 condones lubricados. Modelos se envían al azar. Látex de alta calidad.",
       "disponible": true,
+      "stock": 1,
       "slug": "condon-latex-texturizado-fa-condones",
       "imagen": "fundas-anillos/fa-condones.webp",
       "galeria": [
@@ -1816,7 +2080,8 @@
         "fundas-anillos/fa-condones-2.webp",
         "fundas-anillos/fa-condones-3.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-desechable",
@@ -1829,12 +2094,14 @@
       "beneficio": "Estimulación simultánea",
       "ficha": "Anillo elástico de silicona SEBS hipoalergénica, texturizado, libre de látex y ftalatos, batería integrada con duración aproximada de 30 minutos.",
       "disponible": true,
+      "stock": 11,
       "slug": "anillo-desechable-fa-desechable",
       "imagen": "fundas-anillos/fa-desechable.webp",
       "galeria": [
         "fundas-anillos/fa-desechable.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-estimuclitoris",
@@ -1847,6 +2114,7 @@
       "beneficio": "Placer doble con vibración profunda",
       "ficha": "Extensión fabricada en silicona con una longitud de 12,5 cm. Incluye un estimulador de clítoris integrado. Fuente de alimentación: 3 baterías LR44.",
       "disponible": true,
+      "stock": 0,
       "slug": "extension-con-estimulador-de-clitoris-fa-estimuclitoris",
       "imagen": "fundas-anillos/fa-estimuclitoris.webp",
       "galeria": [
@@ -1857,7 +2125,8 @@
         "fundas-anillos/fa-estimuclitoris-4.webp",
         "fundas-anillos/fa-estimuclitoris-5.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "fa-contension",
@@ -1870,6 +2139,7 @@
       "beneficio": "Erecciones más firmes y sexo más duradero",
       "ficha": "Silicona de alta calidad segura para el cuerpo, elásticos y reutilizables, resistentes al agua y fáciles de limpiar, set en tres colores: negro, azul y transparente.",
       "disponible": true,
+      "stock": 0,
       "slug": "anillos-de-contension-fa-contension",
       "imagen": "fundas-anillos/fa-contension.jpg",
       "galeria": [
@@ -1878,7 +2148,8 @@
         "fundas-anillos/fa-contension-2.jpg",
         "fundas-anillos/fa-contension-4.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "fa-vibrador",
@@ -1891,6 +2162,7 @@
       "beneficio": "Mayor control y duración con estimulación ajustable",
       "ficha": "Funda de silicona en color negro. Incluye una bala vibradora de una sola velocidad y pila.",
       "disponible": true,
+      "stock": 1,
       "slug": "funda-con-vibrador-fa-vibrador",
       "imagen": "fundas-anillos/fa-vibrador.webp",
       "galeria": [
@@ -1900,7 +2172,8 @@
         "fundas-anillos/fa-vibrador-3.webp",
         "fundas-anillos/fa-vibrador-4.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-silicon",
@@ -1913,12 +2186,35 @@
       "beneficio": "Mayor placer y estimulo para tu pareja",
       "ficha": "Es de color negro y tiene unas medidas aproximadas de 8.3 cm x 4.7 cm x 3.3 cm.",
       "disponible": true,
+      "stock": 0,
       "slug": "anillo-de-silicona-tipo-funda-fa-silicon",
       "imagen": "fundas-anillos/fa-silicon.webp",
       "galeria": [
         "fundas-anillos/fa-silicon.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
+    },
+    {
+      "sku": "fa-ajustable",
+      "nombre": "ANILLO VIBRADOR AJUSTABLE",
+      "categoria": "FUNDAS Y ANILLOS",
+      "precio_base": 250,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "Anillo ajustable con vibración para pene, diseñado para tu máxima comodidad y placer.",
+      "beneficio": "Estimulación para erecciones más duraderas",
+      "ficha": "ABS + silicón · 3 baterías tipo botón · Resistente al agua · Función vibración · 4.5 x 7 cm · Presentación en bolsa",
+      "disponible": true,
+      "stock": 3,
+      "slug": "anillo-vibrador-ajustable-fa-ajustable",
+      "imagen": "fundas-anillos/fa-ajustable.jpg",
+      "galeria": [
+        "fundas-anillos/fa-ajustable.jpg",
+        "fundas-anillos/fa-ajustable-1.jpg"
+      ],
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vs-gold",
@@ -1931,12 +2227,14 @@
       "beneficio": "Mayor energía y rendimiento sexual",
       "ficha": "Suplemento vigorizante sexual en cápsula, apoyo para energía y libido, presentación 1 cápsula (1 ct), uso recomendado una hora antes de la actividad sexual, producto para adultos.",
       "disponible": true,
+      "stock": 0,
       "slug": "rhino-gold-vs-gold",
       "imagen": "vigorizantes-sexuales/vs-gold.webp",
       "galeria": [
         "vigorizantes-sexuales/vs-gold.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vs-racingbull",
@@ -1949,12 +2247,14 @@
       "beneficio": "Mayor firmeza y duración sexual",
       "ficha": "Suplemento herbal en cápsula, mezcla propietaria, presentación 1 cápsula por bolsa. Uso exclusivo para adultos, apoyo para energía, firmeza, duración y longitud.",
       "disponible": true,
+      "stock": 0,
       "slug": "racing-bull-vs-racingbull",
       "imagen": "vigorizantes-sexuales/vs-racingbull.jpg",
       "galeria": [
         "vigorizantes-sexuales/vs-racingbull.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vs-bombay",
@@ -1967,6 +2267,7 @@
       "beneficio": "Mayor energía, firmeza y control sexual",
       "ficha": "Vigorizante sexual natural en presentación 15 g, fórmula con miel pura 98%, Panax Ginseng 1% y Eurycoma longifolia 1%, apoyo para libido, energía, firmeza y duración.",
       "disponible": true,
+      "stock": 0,
       "slug": "bombay-royal-honey-vs-bombay",
       "imagen": "vigorizantes-sexuales/vs-bombay.webp",
       "galeria": [
@@ -1974,7 +2275,8 @@
         "vigorizantes-sexuales/vs-bombay-1.webp",
         "vigorizantes-sexuales/vs-bombay-2.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vs-rhinoc",
@@ -1987,12 +2289,14 @@
       "beneficio": "Energía y rendimiento prolongado",
       "ficha": "Suplemento vigorizante masculino en cápsulas, presentación blíster con 2 cápsulas, dosis sugerida 1 cápsula, efecto prolongado hasta 24 horas.",
       "disponible": true,
+      "stock": 1,
       "slug": "rhino-7-vs-rhinoc",
       "imagen": "vigorizantes-sexuales/vs-rhinoc.webp",
       "galeria": [
         "vigorizantes-sexuales/vs-rhinoc.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vs-ibizaw",
@@ -2005,13 +2309,15 @@
       "beneficio": "Mayor excitación y deseo sexual",
       "ficha": "Vigorizante sexual femenino en cápsula, fórmula 100% natural, efecto en aproximadamente 30 minutos, compatible con alcohol, dosis máxima 1 cápsula al día, uso exclusivo para adultos.",
       "disponible": true,
+      "stock": 1,
       "slug": "ibiza-woman-vs-ibizaw",
       "imagen": "vigorizantes-sexuales/vs-ibizaw.webp",
       "galeria": [
         "vigorizantes-sexuales/vs-ibizaw.webp",
         "vigorizantes-sexuales/vs-ibizaw-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vs-sense",
@@ -2024,12 +2330,14 @@
       "beneficio": "Orgasmos más intensos y rápidos",
       "ficha": "Vigorizante sexual femenino de origen 100% natural, aumenta excitación y deseo, acelera el orgasmo, compatible con alcohol, sin efectos secundarios, toma recomendada 30 minutos antes.",
       "disponible": true,
+      "stock": 2,
       "slug": "g-sense-vs-sense",
       "imagen": "vigorizantes-sexuales/vs-sense.webp",
       "galeria": [
         "vigorizantes-sexuales/vs-sense.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vs-dragon",
@@ -2042,12 +2350,14 @@
       "beneficio": "Mayor energía y vitalidad masculina",
       "ficha": "Vigorizante sexual masculino en pastilla, presentación 1 unidad (modelo 750 K), apoyo para rendimiento y confianza, uso sencillo y discreto, formulación efectiva para resultados óptimos.",
       "disponible": true,
+      "stock": 1,
       "slug": "dragon-vs-dragon",
       "imagen": "vigorizantes-sexuales/vs-dragon.webp",
       "galeria": [
         "vigorizantes-sexuales/vs-dragon.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vs-rhino69",
@@ -2060,12 +2370,14 @@
       "beneficio": "Mayor energía y rendimiento masculino",
       "ficha": "Vigorizante sexual masculino en pastilla, presentación 1 unidad, apoyo para energía y desempeño, uso sencillo y discreto, formulación diseñada para resultados efectivos.",
       "disponible": true,
+      "stock": 2,
       "slug": "rhino-69000-vs-rhino69",
       "imagen": "vigorizantes-sexuales/vs-rhino69.jpeg",
       "galeria": [
         "vigorizantes-sexuales/vs-rhino69.jpeg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vs-burro",
@@ -2078,12 +2390,14 @@
       "beneficio": "Rendimiento prolongado sin dolor de cabeza",
       "ficha": "Vigorizante sexual masculino en cápsula, efecto de hasta 14 días por dosis, apoyo para erección firme y control de eyaculación, dosis 1 cápsula una hora antes de la actividad sexual.",
       "disponible": true,
+      "stock": 1,
       "slug": "burro-en-primavera-vs-burro",
       "imagen": "vigorizantes-sexuales/vs-burro.jpeg",
       "galeria": [
         "vigorizantes-sexuales/vs-burro.jpeg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vs-savage",
@@ -2096,12 +2410,55 @@
       "beneficio": "Energía y rendimiento por 7 días",
       "ficha": "Vigorizante sexual masculino en cápsula, presentación en blíster con 1 cápsula, efecto prolongado hasta 168 horas, apoyo para energía y desempeño, dosis recomendada 1 cápsula.",
       "disponible": true,
+      "stock": 1,
       "slug": "savage-best-5000-vs-savage",
       "imagen": "vigorizantes-sexuales/vs-savage.jpeg",
       "galeria": [
         "vigorizantes-sexuales/vs-savage.jpeg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
+    },
+    {
+      "sku": "vs-rhinomiel",
+      "nombre": "RHINO 69 MIEL ACCION RAPIDA",
+      "categoria": "VIGORIZANTES SEXUALES",
+      "precio_base": 250,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "Rhino 69 Miel Acción Rápida y Duradera. Potenciador Masculino. Mejora tu Rendimiento en tiempo, respuesta y resistencia.",
+      "beneficio": "Energía y duración prolongados",
+      "ficha": "Sobre individual · 1 unidad por envase · 1 unidad por pack · Formato líquido · Sabor miel · 15 g (16 g neto)",
+      "disponible": true,
+      "stock": 2,
+      "slug": "rhino-69-miel-accion-rapida-vs-rhinomiel",
+      "imagen": "vigorizantes-sexuales/vs-rhinomiel.webp",
+      "galeria": [
+        "vigorizantes-sexuales/vs-rhinomiel.webp",
+        "vigorizantes-sexuales/vs-rhinomiel-1.webp"
+      ],
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
+    },
+    {
+      "sku": "vs-popper",
+      "nombre": "POPPERS RUSH ESTIMULANTES",
+      "categoria": "VIGORIZANTES SEXUALES",
+      "precio_base": 420,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "Potencializador sexual. Incienso para brindarte un efecto revitalizante que estimula tus sentidos y mejora tu estado de ánimo.",
+      "beneficio": "Energía explosiva para mayor placer",
+      "ficha": "Vigorizante en botella de vidrio de 10 ml. Varias presentaciones y colores, según existencias. (Prohibido el uso en menores de edad).",
+      "disponible": true,
+      "stock": 1,
+      "slug": "poppers-rush-estimulantes-vs-popper",
+      "imagen": "vigorizantes-sexuales/vs-popper.webp",
+      "galeria": [
+        "vigorizantes-sexuales/vs-popper.webp"
+      ],
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "rs-indio",
@@ -2114,13 +2471,15 @@
       "beneficio": "Mayor control sin perder sensibilidad",
       "ficha": "Retardante en spray con un contenido neto de 10 ml. Se recomienda rociar sobre el glande y el surco coronario 30 minutos antes de la relación sexual y distribuir uniformemente.",
       "disponible": true,
+      "stock": 1,
       "slug": "retardante-en-spay-indio-rs-indio",
       "imagen": "retardantes-sexuales/rs-indio.webp",
       "galeria": [
         "retardantes-sexuales/rs-indio.webp",
         "retardantes-sexuales/rs-indio-1.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "rs-maxxx",
@@ -2133,13 +2492,15 @@
       "beneficio": "Controla la eyaculación",
       "ficha": "Presentación con despachador  de 15.4 ml, después de aplicarlo esperar 3 min para que haga efecto, para retirar el producto lava con agua y jabón.",
       "disponible": true,
+      "stock": 1,
       "slug": "retardante-en-spray-maxxx-rs-maxxx",
       "imagen": "retardantes-sexuales/rs-maxxx.webp",
       "galeria": [
         "retardantes-sexuales/rs-maxxx.webp",
         "retardantes-sexuales/rs-maxxx-1.jpg"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "rs-sta",
@@ -2152,12 +2513,37 @@
       "beneficio": "Mayor control y duración",
       "ficha": "Crema retardante desensibilizante para retrasar la eyaculación, contiene benzocaína 5%, aplicación tópica en pene erecto, efecto de mayor control y duración.",
       "disponible": true,
+      "stock": 0,
       "slug": "lubricante-crema-sta-hard-rs-sta",
       "imagen": "retardantes-sexuales/rs-sta.webp",
       "galeria": [
         "retardantes-sexuales/rs-sta.webp"
       ],
-      "stock_nota": "Disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
+    },
+    {
+      "sku": "rs-stud",
+      "nombre": "RETARDANTE STUD 100 ORIGINAL",
+      "categoria": "RETARDANTES SEXUALES",
+      "precio_base": 450,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "Lubricante retardante para hombre. Stud 100 Original, importado de USA.",
+      "beneficio": "Mejora el rendimiento y controla la eyaculación",
+      "ficha": "30 g · Unidad individual · Sin sabor · Efecto lubricante · Base spray · Uso genital masculino · Compatible con látex",
+      "disponible": true,
+      "stock": 1,
+      "slug": "retardante-stud-100-original-rs-stud",
+      "imagen": "retardantes-sexuales/rs-stud.webp",
+      "galeria": [
+        "retardantes-sexuales/rs-stud.webp",
+        "retardantes-sexuales/rs-stud-1.webp",
+        "retardantes-sexuales/rs-stud-2.webp",
+        "retardantes-sexuales/rs-stud-3.webp"
+      ],
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     }
   ]
 }

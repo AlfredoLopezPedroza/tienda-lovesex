@@ -95,7 +95,8 @@ function parseCSV(csvText) {
             descripcion: descripcionComercial,
             beneficio: beneficioPrincipal,
             ficha: fichaTecnica,
-            disponible: values[9]?.trim().toLowerCase() === 'activo'
+            disponible: values[9]?.trim().toLowerCase() === 'activo',
+            stock: parseInt(values[10]) || 0
         });
     }
     return products;
@@ -141,7 +142,8 @@ function mapImages(products) {
             slug: `${slugify(p.nombre)}-${p.sku.toLowerCase()}`,
             imagen: mainImage,
             galeria: gallery,
-            stock_nota: p.disponible ? "Disponible" : "Agotado"
+            stock_nota: p.stock > 0 ? "Disponible" : "No disponible",
+            stock_estado: p.stock > 0 ? "disponible" : "agotado"
         };
     });
 }

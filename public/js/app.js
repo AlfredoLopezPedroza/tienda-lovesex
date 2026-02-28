@@ -526,6 +526,26 @@ function abrirModal(producto) {
   document.getElementById('modal-nombre').textContent = producto.nombre;
   document.getElementById('modal-categoria').textContent = producto.categoria || 'Sin categoría';
 
+  // Eliminar badge previo del modal si existe
+  const existingBadge = document.getElementById('modal-stock-badge');
+  if (existingBadge) {
+    existingBadge.remove();
+  }
+
+  // Insertar badge de stock
+  if (producto.stock_nota) {
+    const badgeContainer = document.createElement('div');
+    badgeContainer.id = 'modal-stock-badge';
+    badgeContainer.className = 'producto-badge-container';
+    badgeContainer.innerHTML = `<span class="badge-${producto.stock_estado}">${producto.stock_nota}</span>`;
+
+    // Insert after modal-categoria which is a child of some container
+    const categoriaEl = document.getElementById('modal-categoria');
+    if (categoriaEl && categoriaEl.parentNode) {
+      categoriaEl.parentNode.insertBefore(badgeContainer, categoriaEl.nextSibling);
+    }
+  }
+
   // Secciones de texto (3 secciones separadas)
   const infoContenedor = document.querySelector('.modal-info');
   // Remove existing dynamic sections if any (to avoid duplicates)
@@ -653,7 +673,7 @@ function renderizarCatalogo(productos) {
 
         ${precioHTML}
 
-        ${producto.stock_nota ? `<p class="producto-stock">${producto.stock_nota}</p>` : ''}
+        ${producto.stock_nota ? `<div class="producto-badge-container"><span class="badge-${producto.stock_estado}">${producto.stock_nota}</span></div>` : ''}
 
         <a href="${whatsappURL}" target="_blank" class="producto-whatsapp">
           Pedir ahora

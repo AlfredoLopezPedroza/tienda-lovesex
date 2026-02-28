@@ -2020,3 +2020,33 @@ hr {
     opacity: 0.9;
   }
 }
+
+/* ============================================
+   Indicadores de Stock
+   ============================================ */
+.producto-badge-container {
+  margin-top: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  text-align: left;
+}
+
+.badge-disponible,
+.badge-agotado {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-disponible {
+  background-color: #e6f4ea;
+  color: #1e8e3e;
+}
+
+.badge-agotado {
+  background-color: #fce8e6;
+  color: #c5221f;
+}
