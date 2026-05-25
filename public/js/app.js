@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '527772507342';
+const WHATSAPP_NUMBER = '527773345863';
 
 // Variables globales
 let productosOriginales = [];
