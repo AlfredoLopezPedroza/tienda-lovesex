@@ -5,3 +5,7 @@ dist/
 build/
 *.log
 nul
+
+# Backups y datos comerciales crudos (no subir al repo público)
+*.bak
+*.xlsx
