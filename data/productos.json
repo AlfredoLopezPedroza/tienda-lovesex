@@ -93,7 +93,7 @@
       "beneficio": "Placer doble y simultáneo",
       "ficha": "Dildo de doble cabeza. 34 cm por 2 cm. Diseño 'Double-Ended'. Flexible, suave, resistente al agua y no tóxico. Disponible en varios colores.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "doble-cabeza-dp-34cm",
       "imagen": "dildos/dp-34cm.webp",
       "galeria": [
@@ -101,8 +101,8 @@
         "dildos/dp-34cm-1.jpg",
         "dildos/dp-34cm-2.jpg"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "dp-transparente18",
@@ -203,7 +203,7 @@
       "beneficio": "Estimulación suave y precisa",
       "ficha": "Material: TPE + ABS / TPE. Medida: 21 cm. Color sujeto a existencia.",
       "disponible": true,
-      "stock": 6,
+      "stock": 3,
       "slug": "dildo-21-cm-jelly-dp-jelly",
       "imagen": "dildos/dp-jelly.webp",
       "galeria": [
@@ -289,7 +289,7 @@
       "beneficio": "Doble estimulación con manos libres",
       "ficha": "Dildo realista con diseño de doble penetración. Base de succión. Color sujeto a existencia. Tamaño: 18mm * 35 mm.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "doble-placer-dp-dobleplacer",
       "imagen": "dildos/dp-dobleplacer.webp",
       "galeria": [
@@ -299,8 +299,8 @@
         "dildos/dp-dobleplacer-3.webp",
         "dildos/dp-dobleplacer-4.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "dp-bicolorbase",
@@ -855,14 +855,14 @@
       "beneficio": "Sensaciones variables en un solo dispositivo práctico",
       "ficha": "Presentación: Bolsa. Incluye vibrador con 4 fundas compatibles con cualquier modelo. 1 sola velocidad. Requerimientos: Usa pilas (no incluidas). Color sujeto a existencia.",
       "disponible": true,
-      "stock": 2,
+      "stock": 0,
       "slug": "vibrador-con-4-fundas-vv-funda",
       "imagen": "vibradores/vv-funda.webp",
       "galeria": [
         "vibradores/vv-funda.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-pinzas",
@@ -945,7 +945,7 @@
       "beneficio": "Estimulación potente y precisa en un diseño compacto",
       "ficha": "Material: Silicona + ABS. 10 frecuencias. Batería recargable USB. Resistente al agua. Tamaño: 11 * 3.7 cm.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "vibrador-lala-vv-lala",
       "imagen": "vibradores/vv-lala.webp",
       "galeria": [
@@ -955,8 +955,8 @@
         "vibradores/vv-lala-3.webp",
         "vibradores/vv-lala-4.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-chuck",
@@ -1165,7 +1165,7 @@
       "beneficio": "Estimulación intensa, variada y completamente personalizable",
       "ficha": "Silicona de alta calidad · 22 cm total / 17 cm penetración · Ø 4 cm · Ventosa de succión · Control remoto (AAA) · 12 modos vibración / vai-e-vem / rotación · Función calentamiento · Recargable USB",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "vibrador-conejo-realista-inalambrico-vv-conejorealista",
       "imagen": "vibradores/vv-conejorealista.jpg",
       "galeria": [
@@ -1176,8 +1176,8 @@
         "vibradores/vv-conejorealista-4.jpg",
         "vibradores/vv-conejorealista-5.jpg"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-welove",
@@ -1190,7 +1190,7 @@
       "beneficio": "Estimulación vibratoria desde tu teléfono celular",
       "ficha": "Desenrosca la cubierta e inserta las pilas. Enciende el Bluetooth y la red inalámbrica. Escanea el Código QR y descarga la App: versiones para Android y Apple. Material: gel de sílice + ABS",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "huevo-vibrador-inalambrico-con-app-vv-welove",
       "imagen": "vibradores/vv-welove.jpeg",
       "galeria": [
@@ -1199,8 +1199,8 @@
         "vibradores/vv-welove-2.webp",
         "vibradores/vv-welove-3.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-puntog",
@@ -1300,7 +1300,7 @@
       "beneficio": "Estimulación focalizada multi-frecuencia",
       "ficha": "Material: Silicona médica + ABS. Medidas: 3.8 x 9.4 cm. Alimentación: 1 batería AA (no incluida). 10 patrones de frecuencia ajustables. Resistente al agua. Textura de relieves concéntricos.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "bala-vibradora-texturizada-vv-bullet94",
       "imagen": "vibradores/vv-bullet94-1.jpg",
       "galeria": [
@@ -1308,8 +1308,8 @@
         "vibradores/vv-bullet94-2.jpg",
         "vibradores/vv-bullet94-3.jpg"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-octopi",
@@ -1416,12 +1416,12 @@
       "beneficio": "Máximo confort y fluidez en cada movimiento",
       "ficha": "Lubricante íntimo natural soluble al agua. Inodoro y de textura suave. Contenido: 25ml.",
       "disponible": true,
-      "stock": 22,
+      "stock": 0,
       "slug": "lubricante-natural-siyi-bolsillo-lc-siyi25",
       "imagen": "pendiente.webp",
       "galeria": [],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "lc-siyi50",
@@ -1434,7 +1434,7 @@
       "beneficio": "Deslizamiento ultra-suave",
       "ficha": "Lubricante íntimo natural soluble al agua. Inodoro y de textura suave. Contenido: 50ml.",
       "disponible": true,
-      "stock": 0,
+      "stock": 19,
       "slug": "lubricante-natural-siyi-lc-siyi50",
       "imagen": "lubricantes-cremas/lc-siyi50.webp",
       "galeria": [
@@ -1442,8 +1442,8 @@
         "lubricantes-cremas/lc-siyi50-1.webp",
         "lubricantes-cremas/lc-siyi50-2.webp"
       ],
-      "stock_nota": "No disponible",
-      "stock_estado": "agotado"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "lc-touchan",
@@ -2036,7 +2036,7 @@
       "beneficio": "Mayor duración y estimulación en pareja",
       "ficha": "Funda vibradora extensora para pene, material TPE suave y elástico no tóxico, diseño con vibración y anillo testicular integrado, extensor hasta 9.6 cm, compatible con lubricante a base de agua.",
       "disponible": true,
-      "stock": 2,
+      "stock": 0,
       "slug": "funda-dragon-con-vibracion-fa-dragonvib",
       "imagen": "fundas-anillos/fa-dragonvib.webp",
       "galeria": [
@@ -2047,8 +2047,8 @@
         "fundas-anillos/fa-dragonvib-4.webp",
         "fundas-anillos/fa-dragonvib-5.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "fa-silicon3",
@@ -2129,7 +2129,7 @@
       "beneficio": "Mayor duración y estimulación en pareja",
       "ficha": "Funda extensora vibratoria para pene, material silicona segura para el cuerpo, ultra flexible y elástica, ayuda a reducir sensibilidad y retardar la eyaculación, textura con venas.",
       "disponible": true,
-      "stock": 0,
+      "stock": 1,
       "slug": "funda-transparente-fa-transparente",
       "imagen": "fundas-anillos/fa-transparente.jpg",
       "galeria": [
@@ -2138,8 +2138,8 @@
         "fundas-anillos/fa-transparente-3.jpg",
         "fundas-anillos/fa-transparente-4.webp"
       ],
-      "stock_nota": "No disponible",
-      "stock_estado": "agotado"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "fa-mano",
@@ -2247,7 +2247,7 @@
       "beneficio": "Erecciones más duras",
       "ficha": "Silicona flexible e inodora, diseño doble elástico con múltiples formas de uso, cómodo y reutilizable para sesiones prolongadas.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "anillo-silicon-dual-fa-silicon2",
       "imagen": "fundas-anillos/fa-silicon2.webp",
       "galeria": [
@@ -2256,8 +2256,8 @@
         "fundas-anillos/fa-silicon2-2.webp",
         "fundas-anillos/fa-silicon2-3.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "fa-condones",
@@ -2293,7 +2293,7 @@
       "beneficio": "Estimulación simultánea",
       "ficha": "Anillo elástico de silicona SEBS hipoalergénica, texturizado, libre de látex y ftalatos, batería integrada con duración aproximada de 30 minutos.",
       "disponible": true,
-      "stock": 10,
+      "stock": 9,
       "slug": "anillo-desechable-fa-desechable",
       "imagen": "fundas-anillos/fa-desechable.webp",
       "galeria": [
@@ -2466,7 +2466,7 @@
       "beneficio": "Mayor energía, firmeza y control sexual",
       "ficha": "Vigorizante sexual natural en presentación 15 g, fórmula con miel pura 98%, Panax Ginseng 1% y Eurycoma longifolia 1%, apoyo para libido, energía, firmeza y duración.",
       "disponible": true,
-      "stock": 0,
+      "stock": 2,
       "slug": "bombay-royal-honey-vs-bombay",
       "imagen": "vigorizantes-sexuales/vs-bombay.webp",
       "galeria": [
@@ -2474,8 +2474,8 @@
         "vigorizantes-sexuales/vs-bombay-1.webp",
         "vigorizantes-sexuales/vs-bombay-2.webp"
       ],
-      "stock_nota": "No disponible",
-      "stock_estado": "agotado"
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
     },
     {
       "sku": "vs-rhinoc",
@@ -2488,14 +2488,14 @@
       "beneficio": "Energía y rendimiento prolongado",
       "ficha": "Suplemento vigorizante masculino en cápsulas, presentación blíster con 2 cápsulas, dosis sugerida 1 cápsula, efecto prolongado hasta 24 horas.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "rhino-7-vs-rhinoc",
       "imagen": "vigorizantes-sexuales/vs-rhinoc.webp",
       "galeria": [
         "vigorizantes-sexuales/vs-rhinoc.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vs-ibizaw",
@@ -2650,7 +2650,7 @@
       "beneficio": "Energía explosiva para mayor placer",
       "ficha": "Vigorizante en botella de vidrio de 10 ml. Varias presentaciones y colores, según existencias. (Prohibido el uso en menores de edad).",
       "disponible": true,
-      "stock": 1,
+      "stock": 7,
       "slug": "poppers-rush-estimulantes-vs-popper",
       "imagen": "vigorizantes-sexuales/vs-popper.webp",
       "galeria": [
