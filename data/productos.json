@@ -203,7 +203,7 @@
       "beneficio": "Estimulación suave y precisa",
       "ficha": "Material: TPE + ABS / TPE. Medida: 21 cm. Color sujeto a existencia.",
       "disponible": true,
-      "stock": 3,
+      "stock": 1,
       "slug": "dildo-21-cm-jelly-dp-jelly",
       "imagen": "dildos/dp-jelly.webp",
       "galeria": [
@@ -619,7 +619,7 @@
       "beneficio": "Estimulación directa y control total del placer",
       "ficha": "Material: Elastómero flexible. Funda dedal con bala vibradora de pila (incluida). Producto reutilizable y texturizado para mayor estimulación.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "funda-dedal-con-bala-vibradora-vv-fundadedal",
       "imagen": "vibradores/vv-fundadedal.webp",
       "galeria": [
@@ -630,8 +630,8 @@
         "vibradores/vv-fundadedal-4.jpg",
         "vibradores/vv-fundadedal-5.jpg"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-amanraya",
@@ -806,7 +806,7 @@
       "beneficio": "Estimulación directa y poderosa en un diseño compacto",
       "ficha": "Material: ABS de alta calidad. Buena potencia de vibración. Medidas: 125 x 55 mm. Fuente: una pila AA (resistencia 3 horas). Color de acuerdo a existencia.",
       "disponible": true,
-      "stock": 6,
+      "stock": 7,
       "slug": "vibrador-delfin-vv-delfin",
       "imagen": "vibradores/vv-delfin.webp",
       "galeria": [
@@ -1213,7 +1213,7 @@
       "beneficio": "Vibración y estimulación para tu Punto G",
       "ficha": "No es recargable: usa 2 pilas AAA. Cuenta con 10 modos de vibración. Repelente al agua. Medidas en las imágenes del producto. Material: gel de sílice + ABS",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "vibrador-punto-g-vv-puntog",
       "imagen": "vibradores/vv-puntog.jpg",
       "galeria": [
@@ -1222,8 +1222,8 @@
         "vibradores/vv-puntog-2.webp",
         "vibradores/vv-puntog-3.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vv-color",
@@ -1434,7 +1434,7 @@
       "beneficio": "Deslizamiento ultra-suave",
       "ficha": "Lubricante íntimo natural soluble al agua. Inodoro y de textura suave. Contenido: 50ml.",
       "disponible": true,
-      "stock": 19,
+      "stock": 18,
       "slug": "lubricante-natural-siyi-lc-siyi50",
       "imagen": "lubricantes-cremas/lc-siyi50.webp",
       "galeria": [
@@ -1606,7 +1606,7 @@
       "beneficio": "Estimulación focalizada para sensaciones más intensa",
       "ficha": "Gel diseñado para contribuir a encuentros sexuales placenteros y facilitar la obtención de orgasmos. Extractos naturales, sin irritación. Marca: Aimani. Contenido: 50 ml.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "gel-multiorgasmico-lc-aimani",
       "imagen": "lubricantes-cremas/lc-aimani.webp",
       "galeria": [
@@ -1614,8 +1614,8 @@
         "lubricantes-cremas/lc-aimani-1.webp",
         "lubricantes-cremas/lc-aimani-2.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "lc-4en1",
@@ -1628,7 +1628,7 @@
       "beneficio": "Estimulación térmica que amplifica la experiencia",
       "ficha": "Lubricante base agua multiusos ideal para masajes, comestible y con propiedades termogénicas. Sabores disponibles de acuerdo a existencia. Contenido: 30 ml.",
       "disponible": true,
-      "stock": 3,
+      "stock": 2,
       "slug": "lubricantes-4-en-1-lc-4en1",
       "imagen": "lubricantes-cremas/lc-4en1.webp",
       "galeria": [
@@ -2129,7 +2129,7 @@
       "beneficio": "Mayor duración y estimulación en pareja",
       "ficha": "Funda extensora vibratoria para pene, material silicona segura para el cuerpo, ultra flexible y elástica, ayuda a reducir sensibilidad y retardar la eyaculación, textura con venas.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "funda-transparente-fa-transparente",
       "imagen": "fundas-anillos/fa-transparente.jpg",
       "galeria": [
@@ -2138,8 +2138,8 @@
         "fundas-anillos/fa-transparente-3.jpg",
         "fundas-anillos/fa-transparente-4.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "fa-mano",
@@ -2466,7 +2466,7 @@
       "beneficio": "Mayor energía, firmeza y control sexual",
       "ficha": "Vigorizante sexual natural en presentación 15 g, fórmula con miel pura 98%, Panax Ginseng 1% y Eurycoma longifolia 1%, apoyo para libido, energía, firmeza y duración.",
       "disponible": true,
-      "stock": 2,
+      "stock": 0,
       "slug": "bombay-royal-honey-vs-bombay",
       "imagen": "vigorizantes-sexuales/vs-bombay.webp",
       "galeria": [
@@ -2474,8 +2474,8 @@
         "vigorizantes-sexuales/vs-bombay-1.webp",
         "vigorizantes-sexuales/vs-bombay-2.webp"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "vs-rhinoc",
@@ -2629,7 +2629,7 @@
       "beneficio": "Energía y duración prolongados",
       "ficha": "Sobre individual · 1 unidad por envase · 1 unidad por pack · Formato líquido · Sabor miel · 15 g (16 g neto)",
       "disponible": true,
-      "stock": 2,
+      "stock": 1,
       "slug": "rhino-69-miel-accion-rapida-vs-rhinomiel",
       "imagen": "vigorizantes-sexuales/vs-rhinomiel.webp",
       "galeria": [
@@ -2650,7 +2650,7 @@
       "beneficio": "Energía explosiva para mayor placer",
       "ficha": "Vigorizante en botella de vidrio de 10 ml. Varias presentaciones y colores, según existencias. (Prohibido el uso en menores de edad).",
       "disponible": true,
-      "stock": 7,
+      "stock": 5,
       "slug": "poppers-rush-estimulantes-vs-popper",
       "imagen": "vigorizantes-sexuales/vs-popper.webp",
       "galeria": [
@@ -2691,15 +2691,15 @@
       "beneficio": "Controla la eyaculación",
       "ficha": "Presentación con despachador  de 15.4 ml, después de aplicarlo esperar 3 min para que haga efecto, para retirar el producto lava con agua y jabón.",
       "disponible": true,
-      "stock": 1,
+      "stock": 0,
       "slug": "retardante-en-spray-maxxx-rs-maxxx",
       "imagen": "retardantes-sexuales/rs-maxxx.webp",
       "galeria": [
         "retardantes-sexuales/rs-maxxx.webp",
         "retardantes-sexuales/rs-maxxx-1.jpg"
       ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
+      "stock_nota": "No disponible",
+      "stock_estado": "agotado"
     },
     {
       "sku": "rs-sta",
