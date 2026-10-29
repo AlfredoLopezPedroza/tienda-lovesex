@@ -7,5 +7,5 @@ build/
 nul
 
 # Backups y datos comerciales crudos (no subir al repo público)
-*.bak
+*.bak*
 *.xlsx

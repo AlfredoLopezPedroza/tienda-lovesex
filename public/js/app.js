@@ -195,7 +195,7 @@ function renderizarPacksHome() {
         </div>
         <div class="pack-card-contenido">
           <h3 class="pack-card-nombre">${pack.nombre}</h3>
-          <p class="pack-card-descripcion">${pack.descripcion}</p>
+          ${pack.descripcion ? `<p class="pack-card-descripcion">${pack.descripcion}</p>` : ''}
           <a href="${whatsappURL}" target="_blank" class="pack-card-cta">
             📲 Comprar por WhatsApp
           </a>

@@ -1,23 +1,23 @@
 module.exports = [
   {
-    id: 'pack-iniciacion',
-    nombre: 'Pack Iniciación',
-    descripcion: 'Set ideal para principiantes que desean explorar nuevas sensaciones con seguridad.',
-    imagen: '/img/packs/pack1.png',
-    whatsappMensaje: 'Hola 👋\n\nMe interesa el Pack: Pack Iniciación\n\n¿Me das más información?'
+    id: 'promo-1',
+    nombre: 'Promo #1',
+    descripcion: '',
+    imagen: '/img/packs/promo-1.png',
+    whatsappMensaje: 'Hola 👋\n\nMe interesa la Promo #1\n\n¿Me das más información?'
   },
   {
-    id: 'pack-pareja',
-    nombre: 'Pack Pareja',
-    descripcion: 'Todo lo necesario para disfrutar experiencias inolvidables en pareja.',
-    imagen: '/img/packs/pack2.png',
-    whatsappMensaje: 'Hola 👋\n\nMe interesa el Pack: Pack Pareja\n\n¿Me das más información?'
+    id: 'promo-2',
+    nombre: 'Promo #2',
+    descripcion: '',
+    imagen: '/img/packs/promo-2.png',
+    whatsappMensaje: 'Hola 👋\n\nMe interesa la Promo #2\n\n¿Me das más información?'
   },
   {
-    id: 'pack-premium',
-    nombre: 'Pack Premium',
-    descripcion: 'Set exclusivo para quienes buscan lo mejor en placer y calidad.',
-    imagen: '/img/packs/pack3.png',
-    whatsappMensaje: 'Hola 👋\n\nMe interesa el Pack: Pack Premium\n\n¿Me das más información?'
+    id: 'promo-3',
+    nombre: 'Promo #3',
+    descripcion: '',
+    imagen: '/img/packs/promo-3.png',
+    whatsappMensaje: 'Hola 👋\n\nMe interesa la Promo #3\n\n¿Me das más información?'
   }
 ];
