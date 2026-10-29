@@ -1,7 +1,7 @@
 /**
  * ============================================================================
  * Love&Sex - Seasonal Theme Engine Controller (themes.js)
- * Manejador de temas estacionales automáticos y selector manual
+ * Manejador de temas estacionales automáticos y selector manual para Admins
  * ============================================================================
  */
 
@@ -11,6 +11,7 @@
   const STORAGE_KEY_THEME = 'lovesex_theme';
   const STORAGE_KEY_MODE = 'lovesex_theme_mode'; // 'auto' | 'manual'
   const STORAGE_KEY_BANNER = 'lovesex_banner_dismissed';
+  const STORAGE_KEY_ADMIN = 'lovesex_admin_enabled';
 
   const THEMES = {
     'halloween': {
@@ -49,6 +50,63 @@
       badge: 'Original'
     }
   };
+
+  /**
+   * Verifica y gestiona el estado de Administrador (Opción C)
+   * 1. Revisa parámetro de URL: ?admin=1 o ?admin=true (y limpia la barra de direcciones)
+   * 2. Revisa almacenamiento local previo
+   */
+  function checkAdminAccess() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const adminParam = params.get('admin');
+
+      if (adminParam === '1' || adminParam === 'true' || adminParam === 'lovesex') {
+        localStorage.setItem(STORAGE_KEY_ADMIN, 'true');
+        // Limpiar URL sin recargar la página para discreción total
+        params.delete('admin');
+        const newSearch = params.toString();
+        const newUrl = window.location.pathname + (newSearch ? '?' + newSearch : '') + window.location.hash;
+        window.history.replaceState({}, document.title, newUrl);
+        return true;
+      }
+
+      if (adminParam === '0' || adminParam === 'false') {
+        localStorage.removeItem(STORAGE_KEY_ADMIN);
+        params.delete('admin');
+        const newSearch = params.toString();
+        const newUrl = window.location.pathname + (newSearch ? '?' + newSearch : '') + window.location.hash;
+        window.history.replaceState({}, document.title, newUrl);
+        return false;
+      }
+    } catch (e) {
+      // Ignorar errores en entornos sin URLSearchParams
+    }
+
+    return localStorage.getItem(STORAGE_KEY_ADMIN) === 'true';
+  }
+
+  function isAdmin() {
+    return localStorage.getItem(STORAGE_KEY_ADMIN) === 'true';
+  }
+
+  /**
+   * Muestra un toast breve y discreto de notificación de Admin
+   */
+  function showToast(message) {
+    let toast = document.getElementById('theme-admin-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'theme-admin-toast';
+      toast.className = 'theme-admin-toast';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.add('show');
+    setTimeout(() => {
+      toast.classList.remove('show');
+    }, 2400);
+  }
 
   /**
    * Detecta automáticamente el tema según el calendario del año
@@ -166,12 +224,19 @@
   }
 
   /**
-   * Construye e inyecta el widget flotante selector de temas
+   * Construye e inyecta el widget selector SOLO si está en modo Admin
    */
   function buildSwitcher(activeTheme, activeMode) {
-    if (document.getElementById('theme-switcher-container')) return;
+    let container = document.getElementById('theme-switcher-container');
 
-    const container = document.createElement('div');
+    if (!isAdmin()) {
+      if (container) container.remove();
+      return;
+    }
+
+    if (container) return; // ya existe
+
+    container = document.createElement('div');
     container.id = 'theme-switcher-container';
     container.className = 'theme-switcher-container';
 
@@ -194,7 +259,7 @@
     container.innerHTML = `
       <div class="theme-switcher-menu" id="theme-switcher-menu">
         <div class="theme-menu-header">
-          <span>Seleccionar Tema</span>
+          <span>Control de Temas (Admin)</span>
           ${activeMode === 'auto' ? '<span class="theme-menu-auto-badge">Auto (Fecha)</span>' : ''}
         </div>
         <div class="theme-menu-options">
@@ -205,9 +270,13 @@
             <span>🔄</span>
             <span>Restablecer fecha automática</span>
           </button>
+          <button class="theme-auto-toggle-btn" id="theme-hide-admin" style="margin-top: 6px; opacity: 0.8;">
+            <span>🔒</span>
+            <span>Ocultar controles admin</span>
+          </button>
         </div>
       </div>
-      <button class="theme-switcher-pill" id="theme-switcher-pill" aria-label="Cambiar tema visual">
+      <button class="theme-switcher-pill" id="theme-switcher-pill" aria-label="Cambiar tema visual (Admin)">
         <span class="theme-switcher-icon" id="theme-pill-icon">${currentConfig.icon}</span>
         <span class="theme-switcher-label" id="theme-pill-label">Tema: ${currentConfig.name}</span>
         <span class="theme-switcher-arrow">▲</span>
@@ -230,6 +299,7 @@
         const themeId = btn.getAttribute('data-theme-id');
         applyTheme(themeId, 'manual');
         container.classList.remove('open');
+        showToast(`✨ Tema activado: ${THEMES[themeId].name}`);
       });
     });
 
@@ -241,6 +311,18 @@
         const autoTheme = detectSeasonalTheme();
         applyTheme(autoTheme, 'auto');
         container.classList.remove('open');
+        showToast('🔄 Modo automático por calendario restablecido');
+      });
+    }
+
+    // Botón para ocultar controles admin
+    const hideAdminBtn = container.querySelector('#theme-hide-admin');
+    if (hideAdminBtn) {
+      hideAdminBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        localStorage.removeItem(STORAGE_KEY_ADMIN);
+        container.remove();
+        showToast('🔒 Modo Admin ocultado (Toca 3 veces el logo del Footer para volver)');
       });
     }
 
@@ -288,21 +370,64 @@
     const headerEl = container.querySelector('.theme-menu-header');
     if (headerEl) {
       headerEl.innerHTML = `
-        <span>Seleccionar Tema</span>
+        <span>Control de Temas (Admin)</span>
         ${mode === 'auto' ? '<span class="theme-menu-auto-badge">Auto (Fecha)</span>' : ''}
       `;
     }
   }
 
+  /**
+   * Configura el Easter Egg de 3 toques / clics en el logo del footer para alternar Modo Admin
+   */
+  function setupSecretTrigger() {
+    let clickCount = 0;
+    let clickTimer = null;
+
+    const footerLogos = document.querySelectorAll('.footer-logo-text, .footer-brand, .footer-slogan');
+    
+    footerLogos.forEach(element => {
+      element.addEventListener('click', () => {
+        clickCount++;
+        clearTimeout(clickTimer);
+
+        if (clickCount >= 3) {
+          clickCount = 0;
+          const currentAdmin = isAdmin();
+          if (currentAdmin) {
+            localStorage.removeItem(STORAGE_KEY_ADMIN);
+            const container = document.getElementById('theme-switcher-container');
+            if (container) container.remove();
+            showToast('🔒 Controles Admin desactivados');
+          } else {
+            localStorage.setItem(STORAGE_KEY_ADMIN, 'true');
+            const conf = getActiveThemeConfig();
+            buildSwitcher(conf.theme, conf.mode);
+            showToast('⚡ Controles Admin activados');
+          }
+        } else {
+          clickTimer = setTimeout(() => {
+            clickCount = 0;
+          }, 1200);
+        }
+      });
+    });
+  }
+
   // --- EJECUCIÓN INICIAL ---
-  // 1. Aplicar data-theme al <html> de inmediato (evita FOUC)
+  // 1. Verificar si hay token en URL (?admin=1)
+  const isUserAdmin = checkAdminAccess();
+
+  // 2. Aplicar data-theme al <html> de inmediato (evita FOUC)
   const initial = getActiveThemeConfig();
   document.documentElement.setAttribute('data-theme', initial.theme);
 
-  // 2. Inyectar UI cuando el DOM esté listo
+  // 3. Inyectar UI cuando el DOM esté listo
   function onDOMReady() {
     buildBanner(initial.theme);
-    buildSwitcher(initial.theme, initial.mode);
+    if (isUserAdmin) {
+      buildSwitcher(initial.theme, initial.mode);
+    }
+    setupSecretTrigger();
   }
 
   if (document.readyState === 'loading') {
@@ -311,10 +436,23 @@
     onDOMReady();
   }
 
-  // Exponer API global ligera para depuración o scripts externos
+  // Exponer API global para consola de desarrollo
   window.LoveSexThemes = {
     setTheme: (id) => applyTheme(id, 'manual'),
     resetAuto: () => applyTheme(detectSeasonalTheme(), 'auto'),
+    toggleAdmin: () => {
+      if (isAdmin()) {
+        localStorage.removeItem(STORAGE_KEY_ADMIN);
+        const container = document.getElementById('theme-switcher-container');
+        if (container) container.remove();
+        showToast('🔒 Controles Admin desactivados');
+      } else {
+        localStorage.setItem(STORAGE_KEY_ADMIN, 'true');
+        const conf = getActiveThemeConfig();
+        buildSwitcher(conf.theme, conf.mode);
+        showToast('⚡ Controles Admin activados');
+      }
+    },
     getAvailableThemes: () => Object.keys(THEMES),
     getActiveTheme: () => document.documentElement.getAttribute('data-theme')
   };
