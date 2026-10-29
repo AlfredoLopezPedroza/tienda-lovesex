@@ -1,0 +1,617 @@
+/* ==========================================================================
+   Love&Sex - Seasonal Theme Engine (themes.css)
+   Soporte para: Halloween, San Valentín, Black Friday, Navidad y Clásico
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. PALETAS Y VARIABLES POR TEMA
+   -------------------------------------------------------------------------- */
+
+/* 🎃 TEMA HALLOWEEN / NOCHE DE BRUJAS (Activo por defecto en fechas de Oct-Nov) */
+html[data-theme="halloween"] {
+  --color-primary: #ff6a00;
+  --color-primary-hover: #ff8533;
+  --color-secondary: #9d4edd;
+  --color-accent: #c77dff;
+  --color-light: #0d0714;
+  --color-surface: #170e24;
+  --color-surface-card: #1f1430;
+  --color-surface-hover: #291a40;
+  --color-dark: #f8f2ff;
+  --color-muted: #bda8d9;
+  --color-border: rgba(255, 106, 0, 0.25);
+  --color-border-hover: rgba(255, 106, 0, 0.6);
+  --theme-glow: 0 0 20px rgba(255, 106, 0, 0.35), 0 0 40px rgba(157, 78, 221, 0.2);
+  --theme-banner-bg: linear-gradient(90deg, #ff6a00 0%, #7b2cbf 50%, #ff6a00 100%);
+  --theme-badge-bg: rgba(255, 106, 0, 0.15);
+  --theme-badge-color: #ff9e42;
+}
+
+/* 💖 TEMA SAN VALENTÍN / MES DEL AMOR */
+html[data-theme="san-valentin"] {
+  --color-primary: #ff1475;
+  --color-primary-hover: #ff3388;
+  --color-secondary: #c2185b;
+  --color-accent: #ff758c;
+  --color-light: #fff5f8;
+  --color-surface: #ffffff;
+  --color-surface-card: #ffffff;
+  --color-surface-hover: #fff0f5;
+  --color-dark: #2c0b16;
+  --color-muted: #8c5a6c;
+  --color-border: rgba(255, 20, 117, 0.25);
+  --color-border-hover: rgba(255, 20, 117, 0.6);
+  --theme-glow: 0 0 20px rgba(255, 20, 117, 0.3);
+  --theme-banner-bg: linear-gradient(90deg, #ff1475 0%, #c2185b 50%, #ff758c 100%);
+  --theme-badge-bg: rgba(255, 20, 117, 0.12);
+  --theme-badge-color: #ff1475;
+}
+
+/* ⚡ TEMA BLACK FRIDAY / CYBER DEALS (Dark VIP Mode) */
+html[data-theme="black-friday"] {
+  --color-primary: #ffd600;
+  --color-primary-hover: #ffea70;
+  --color-secondary: #ff3b30;
+  --color-accent: #ff9500;
+  --color-light: #0b0b0e;
+  --color-surface: #141418;
+  --color-surface-card: #1c1c22;
+  --color-surface-hover: #26262f;
+  --color-dark: #f5f5f7;
+  --color-muted: #9e9ea7;
+  --color-border: rgba(255, 214, 0, 0.25);
+  --color-border-hover: rgba(255, 214, 0, 0.6);
+  --theme-glow: 0 0 22px rgba(255, 214, 0, 0.35);
+  --theme-banner-bg: linear-gradient(90deg, #ffd600 0%, #ff9500 50%, #ffd600 100%);
+  --theme-badge-bg: rgba(255, 214, 0, 0.15);
+  --theme-badge-color: #ffd600;
+}
+
+/* 🎄 TEMA NAVIDAD / FIN DE AÑO */
+html[data-theme="navidad"] {
+  --color-primary: #e63946;
+  --color-primary-hover: #ff4d5e;
+  --color-secondary: #00875a;
+  --color-accent: #ffd166;
+  --color-light: #08140e;
+  --color-surface: #0f2218;
+  --color-surface-card: #162e21;
+  --color-surface-hover: #1e3b2b;
+  --color-dark: #f1faee;
+  --color-muted: #a4c2b2;
+  --color-border: rgba(230, 57, 70, 0.3);
+  --color-border-hover: rgba(0, 135, 90, 0.7);
+  --theme-glow: 0 0 20px rgba(230, 57, 70, 0.3), 0 0 30px rgba(0, 135, 90, 0.25);
+  --theme-banner-bg: linear-gradient(90deg, #e63946 0%, #00875a 50%, #ffd166 100%);
+  --theme-badge-bg: rgba(230, 57, 70, 0.15);
+  --theme-badge-color: #ff6b78;
+}
+
+/* ✨ TEMA CLÁSICO (Original Love&Sex) */
+html[data-theme="clasico"] {
+  --color-primary: #d63384;
+  --color-primary-hover: #e04b95;
+  --color-secondary: #6c757d;
+  --color-accent: #fd7e14;
+  --color-light: #f8f9fa;
+  --color-surface: #ffffff;
+  --color-surface-card: #ffffff;
+  --color-surface-hover: #f1f3f5;
+  --color-dark: #212529;
+  --color-muted: #6c757d;
+  --color-border: #dee2e6;
+  --color-border-hover: #d63384;
+  --theme-glow: 0 4px 16px rgba(214, 51, 132, 0.2);
+  --theme-banner-bg: linear-gradient(90deg, #d63384 0%, #c2185b 100%);
+  --theme-badge-bg: rgba(214, 51, 132, 0.1);
+  --theme-badge-color: #d63384;
+}
+
+/* --------------------------------------------------------------------------
+   2. REGLAS VISUALES GLOBALES PARA TEMAS OSCUROS (Halloween, Black Friday, Navidad)
+   -------------------------------------------------------------------------- */
+html[data-theme="halloween"] body,
+html[data-theme="black-friday"] body,
+html[data-theme="navidad"] body {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Tarjetas de Producto */
+html[data-theme="halloween"] .producto,
+html[data-theme="black-friday"] .producto,
+html[data-theme="navidad"] .producto {
+  background-color: var(--color-surface-card);
+  border-color: var(--color-border);
+  color: var(--color-dark);
+}
+
+html[data-theme="halloween"] .producto:hover,
+html[data-theme="black-friday"] .producto:hover,
+html[data-theme="navidad"] .producto:hover {
+  border-color: var(--color-border-hover);
+  box-shadow: var(--theme-glow);
+}
+
+html[data-theme="halloween"] .producto img,
+html[data-theme="black-friday"] .producto img,
+html[data-theme="navidad"] .producto img {
+  background-color: var(--color-surface);
+}
+
+html[data-theme="halloween"] .producto h3,
+html[data-theme="black-friday"] .producto h3,
+html[data-theme="navidad"] .producto h3 {
+  color: var(--color-dark);
+}
+
+html[data-theme="halloween"] .producto-descripcion,
+html[data-theme="black-friday"] .producto-descripcion,
+html[data-theme="navidad"] .producto-descripcion {
+  color: var(--color-muted);
+}
+
+/* Tarjetas de Categoría */
+html[data-theme="halloween"] .categoria-card,
+html[data-theme="black-friday"] .categoria-card,
+html[data-theme="navidad"] .categoria-card {
+  background-color: var(--color-surface-card);
+  border-color: var(--color-border);
+  color: var(--color-dark);
+}
+
+html[data-theme="halloween"] .categoria-card:hover,
+html[data-theme="black-friday"] .categoria-card:hover,
+html[data-theme="navidad"] .categoria-card:hover {
+  border-color: var(--color-border-hover);
+  box-shadow: var(--theme-glow);
+}
+
+html[data-theme="halloween"] .categoria-card-imagen,
+html[data-theme="black-friday"] .categoria-card-imagen,
+html[data-theme="navidad"] .categoria-card-imagen {
+  background-color: var(--color-surface);
+}
+
+html[data-theme="halloween"] .categoria-card-titulo,
+html[data-theme="black-friday"] .categoria-card-titulo,
+html[data-theme="navidad"] .categoria-card-titulo {
+  color: var(--color-dark);
+}
+
+html[data-theme="halloween"] .categoria-card-subtitulo,
+html[data-theme="black-friday"] .categoria-card-subtitulo,
+html[data-theme="navidad"] .categoria-card-subtitulo {
+  color: var(--color-muted);
+}
+
+/* Packs Destacados */
+html[data-theme="halloween"] .pack-card,
+html[data-theme="black-friday"] .pack-card,
+html[data-theme="navidad"] .pack-card {
+  background-color: var(--color-surface-card);
+  border-color: var(--color-border);
+  color: var(--color-dark);
+}
+
+html[data-theme="halloween"] .pack-card:hover,
+html[data-theme="black-friday"] .pack-card:hover,
+html[data-theme="navidad"] .pack-card:hover {
+  border-color: var(--color-border-hover);
+  box-shadow: var(--theme-glow);
+}
+
+html[data-theme="halloween"] .pack-card-imagen,
+html[data-theme="black-friday"] .pack-card-imagen,
+html[data-theme="navidad"] .pack-card-imagen {
+  background-color: var(--color-surface);
+}
+
+html[data-theme="halloween"] .pack-card-nombre,
+html[data-theme="black-friday"] .pack-card-nombre,
+html[data-theme="navidad"] .pack-card-nombre {
+  color: var(--color-dark);
+}
+
+html[data-theme="halloween"] .pack-card-descripcion,
+html[data-theme="black-friday"] .pack-card-descripcion,
+html[data-theme="navidad"] .pack-card-descripcion {
+  color: var(--color-muted);
+}
+
+/* Filtros y Selectores */
+html[data-theme="halloween"] .filtro-select,
+html[data-theme="black-friday"] .filtro-select,
+html[data-theme="navidad"] .filtro-select {
+  background-color: var(--color-surface-card);
+  color: var(--color-dark);
+  border-color: var(--color-border);
+}
+
+html[data-theme="halloween"] .btn-volver,
+html[data-theme="black-friday"] .btn-volver,
+html[data-theme="navidad"] .btn-volver {
+  background-color: var(--color-surface-card);
+  color: var(--color-dark);
+  border-color: var(--color-border);
+}
+
+html[data-theme="halloween"] .btn-volver:hover,
+html[data-theme="black-friday"] .btn-volver:hover,
+html[data-theme="navidad"] .btn-volver:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--theme-glow);
+}
+
+/* Modal de Vista Rápida */
+html[data-theme="halloween"] .modal-contenido,
+html[data-theme="black-friday"] .modal-contenido,
+html[data-theme="navidad"] .modal-contenido {
+  background-color: var(--color-surface-card);
+  border: 1px solid var(--color-border);
+  color: var(--color-dark);
+  box-shadow: var(--theme-glow);
+}
+
+html[data-theme="halloween"] .modal-imagen,
+html[data-theme="black-friday"] .modal-imagen,
+html[data-theme="navidad"] .modal-imagen {
+  background-color: var(--color-surface);
+}
+
+html[data-theme="halloween"] .modal-info h2,
+html[data-theme="black-friday"] .modal-info h2,
+html[data-theme="navidad"] .modal-info h2 {
+  color: var(--color-dark);
+}
+
+html[data-theme="halloween"] .modal-description,
+html[data-theme="black-friday"] .modal-description,
+html[data-theme="navidad"] .modal-description {
+  color: var(--color-muted);
+}
+
+html[data-theme="halloween"] .modal-cerrar,
+html[data-theme="black-friday"] .modal-cerrar,
+html[data-theme="navidad"] .modal-cerrar {
+  background: var(--color-surface);
+  color: var(--color-dark);
+}
+
+/* Footer Temático */
+html[data-theme="halloween"] .footer {
+  background: #09040d;
+  border-top: 2px solid var(--color-primary);
+}
+
+html[data-theme="black-friday"] .footer {
+  background: #050507;
+  border-top: 2px solid var(--color-primary);
+}
+
+html[data-theme="navidad"] .footer {
+  background: #040a07;
+  border-top: 2px solid var(--color-primary);
+}
+
+html[data-theme="halloween"] .footer-logo-text,
+html[data-theme="halloween"] .footer-slogan {
+  background: linear-gradient(90deg, #ff6a00, #c77dff, #ff6a00);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+html[data-theme="black-friday"] .footer-logo-text,
+html[data-theme="black-friday"] .footer-slogan {
+  background: linear-gradient(90deg, #ffd600, #ffffff, #ffd600);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+html[data-theme="navidad"] .footer-logo-text,
+html[data-theme="navidad"] .footer-slogan {
+  background: linear-gradient(90deg, #e63946, #ffd166, #00875a);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Hero Overlay Sintonizado */
+html[data-theme="halloween"] .hero-overlay {
+  background: linear-gradient(135deg, rgba(13, 7, 20, 0.88) 0%, rgba(255, 106, 0, 0.28) 60%, rgba(123, 44, 191, 0.35) 100%);
+}
+
+html[data-theme="black-friday"] .hero-overlay {
+  background: linear-gradient(135deg, rgba(11, 11, 14, 0.9) 0%, rgba(255, 214, 0, 0.25) 100%);
+}
+
+html[data-theme="navidad"] .hero-overlay {
+  background: linear-gradient(135deg, rgba(8, 20, 14, 0.9) 0%, rgba(230, 57, 70, 0.3) 100%);
+}
+
+/* --------------------------------------------------------------------------
+   3. BANNER SUPERIOR ESTACIONAL (ANNOUNCEMENT BAR)
+   -------------------------------------------------------------------------- */
+.seasonal-banner {
+  position: relative;
+  width: 100%;
+  background: var(--theme-banner-bg, linear-gradient(90deg, #ff6a00, #7b2cbf));
+  background-size: 200% 200%;
+  animation: seasonalGradientMove 6s ease infinite;
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-align: center;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.3px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+@keyframes seasonalGradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.seasonal-banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.seasonal-banner-badge {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.seasonal-banner-close {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 6px;
+  margin-left: 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.seasonal-banner-close:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* --------------------------------------------------------------------------
+   4. DETALLES FESTIVOS ESPECÍFICOS DE HALLOWEEN
+   -------------------------------------------------------------------------- */
+html[data-theme="halloween"] .producto::before {
+  content: "🎃";
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 1.15rem;
+  opacity: 0.7;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+html[data-theme="halloween"] .producto:hover::before {
+  transform: scale(1.25) rotate(-10deg);
+  opacity: 1;
+}
+
+html[data-theme="halloween"] .catalogo-banner,
+html[data-theme="halloween"] .banner-info {
+  filter: drop-shadow(0 0 16px rgba(255, 106, 0, 0.25));
+}
+
+/* --------------------------------------------------------------------------
+   5. WIDGET FLOTANTE SELECTOR DE TEMAS (DISCRETO Y ELEGANTE)
+   -------------------------------------------------------------------------- */
+.theme-switcher-container {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 9999;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  user-select: none;
+}
+
+/* Botón cápsula principal */
+.theme-switcher-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(18, 12, 28, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #ffffff;
+  border: 1px solid var(--color-border-hover, rgba(255, 255, 255, 0.2));
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  transition: all 0.25s ease;
+}
+
+.theme-switcher-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), var(--theme-glow, 0 0 10px rgba(255, 106, 0, 0.3));
+  border-color: var(--color-primary, #ff6a00);
+}
+
+.theme-switcher-icon {
+  font-size: 1.05rem;
+  display: inline-block;
+  animation: themePulse 2.5s ease-in-out infinite;
+}
+
+@keyframes themePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+.theme-switcher-arrow {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  transition: transform 0.25s ease;
+}
+
+.theme-switcher-container.open .theme-switcher-arrow {
+  transform: rotate(180deg);
+}
+
+/* Menú desplegable emergente */
+.theme-switcher-menu {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 0;
+  background: rgba(18, 12, 28, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 10px;
+  min-width: 220px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px) scale(0.96);
+  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.theme-switcher-container.open .theme-switcher-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.theme-menu-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 4px 8px 8px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-menu-auto-badge {
+  font-size: 0.65rem;
+  background: rgba(255, 106, 0, 0.2);
+  color: #ff9e42;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.theme-option-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  color: #e5e5ea;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: left;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.theme-option-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.theme-option-btn.active {
+  background: rgba(255, 106, 0, 0.18);
+  color: var(--color-primary, #ff6a00);
+  font-weight: 700;
+}
+
+.theme-option-btn-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme-option-check {
+  font-size: 0.8rem;
+  opacity: 0;
+  color: var(--color-primary, #ff6a00);
+}
+
+.theme-option-btn.active .theme-option-check {
+  opacity: 1;
+}
+
+.theme-menu-footer {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.theme-auto-toggle-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  color: #b0b0bb;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.theme-auto-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Adaptación Mobile */
+@media (max-width: 600px) {
+  .theme-switcher-container {
+    bottom: 16px;
+    left: 16px;
+  }
+  .theme-switcher-pill {
+    padding: 7px 12px;
+    font-size: 0.8rem;
+  }
+  .theme-switcher-label {
+    display: none;
+  }
+  .theme-switcher-menu {
+    min-width: 200px;
+  }
+}
