@@ -3,7 +3,7 @@ module.exports = [
     id: 'promo-1',
     nombre: 'Promo #1',
     descripcion: '',
-    imagen: '/img/packs/promo-1.png',
+    imagen: '/img/packs/promo-1.png?v=2',
     whatsappMensaje: 'Hola 👋\n\nMe interesa la Promo #1\n\n¿Me das más información?'
   },
   {
