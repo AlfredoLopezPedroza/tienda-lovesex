@@ -39,6 +39,26 @@
   ],
   "productos": [
     {
+      "sku": "lc-feromonasella",
+      "nombre": "FEROMONAS PARA ELLA",
+      "categoria": "LUBRICANTES Y CREMAS",
+      "precio_base": 280,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "Atracción potencia tu presencia con un aroma seductor y memorable. Diseñado para despertar interés, generar cercanía y dejar una impresión irresistible desde el primer instante. Doble formato, doble impacto.",
+      "beneficio": "Refuerza el magnetismo y la atracción",
+      "ficha": "Perfume con feromonas para ella, diseñado para volverse irresistible. Aroma agradable para uso diario. Contenido: 60 ml.",
+      "disponible": true,
+      "stock": 1,
+      "slug": "feromonas-para-ella-lc-feromonasella",
+      "imagen": "lubricantes-cremas/lc-feromonasella.webp",
+      "galeria": [
+        "lubricantes-cremas/lc-feromonasella.webp"
+      ],
+      "stock_nota": "Disponible",
+      "stock_estado": "disponible"
+    },
+    {
       "sku": "dp-strapon",
       "nombre": "DILDO STRAP ON",
       "categoria": "DILDOS",
@@ -55,29 +75,6 @@
       "galeria": [
         "dildos/dp-strapon.jpg",
         "dildos/dp-strapon-1.jpg"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
-      "sku": "dp-transparente18",
-      "nombre": "DILDO TRANSPARENTE",
-      "categoria": "DILDOS",
-      "precio_base": 250,
-      "precio_promo": null,
-      "promo_activa": false,
-      "descripcion": "DILDO TRANSPARENTE18. Diseñado para intensificar cada caricia con una textura suave y natural. Ideal para quienes buscan mayor comodidad, fluidez y sensaciones más placenteras.",
-      "beneficio": "Penetración firme con control total",
-      "ficha": "Dildo transparente. Medidas: 5.5 x 5.5 x 18 cm. Material: TPE. Color sujeto a disponibilidad.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "dildo-transparente-dp-transparente18",
-      "imagen": "dildos/dp-transparente18.webp",
-      "galeria": [
-        "dildos/dp-transparente18.webp",
-        "dildos/dp-transparente18-1.webp",
-        "dildos/dp-transparente18-2.webp",
-        "dildos/dp-transparente18-3.webp"
       ],
       "stock_nota": "Disponible",
       "stock_estado": "disponible"
@@ -165,26 +162,6 @@
       "imagen": "dildos/dp-venosonac.webp",
       "galeria": [
         "dildos/dp-venosonac.webp"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
-      "sku": "dp-lancer24",
-      "nombre": "DILDO CON BASE 24",
-      "categoria": "DILDOS",
-      "precio_base": 550,
-      "precio_promo": null,
-      "promo_activa": false,
-      "descripcion": "DILDO LANCER24. Convierte cada encuentro en una experiencia sublime. Su tacto aterciopelado y acabados premium garantizan una estimulación precisa y profunda.",
-      "beneficio": "Control firme y realista",
-      "ficha": "Dildo con base (ventosa). Material PVC o TPE. Dimensiones: 24 cm de largo x 4,2 cm de diámetro. Incluye recomendación de desinfección y lubricante a base de agua. Color sujeto a disponibilidad.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "dildo-con-base-24-dp-lancer24",
-      "imagen": "dildos/dp-lancer24.png",
-      "galeria": [
-        "dildos/dp-lancer24.png"
       ],
       "stock_nota": "Disponible",
       "stock_estado": "disponible"
@@ -573,29 +550,6 @@
       "stock_estado": "disponible"
     },
     {
-      "sku": "vv-brocha",
-      "nombre": "VIBRADOR TIPO BROCHA",
-      "categoria": "VIBRADORES",
-      "precio_base": 200,
-      "precio_promo": null,
-      "promo_activa": false,
-      "descripcion": "VIBRADOR BROCHA. La elección perfecta para elevar la temperatura y descubrir nuevas facetas de tu sensualidad. Discreto, potente y absolutamente irresistible.",
-      "beneficio": "Estimulación precisa y seductora en cada contacto",
-      "ficha": "Material: Cerdas suaves y mango rígido. 1 Vibración. Diseño discreto. Requerimientos: Usa pila AAA.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "vibrador-tipo-brocha-vv-brocha",
-      "imagen": "vibradores/vv-brocha.webp",
-      "galeria": [
-        "vibradores/vv-brocha.webp",
-        "vibradores/vv-brocha-1.webp",
-        "vibradores/vv-brocha-2.webp",
-        "vibradores/vv-brocha-3.webp"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
       "sku": "vv-chuck",
       "nombre": "VIBRADOR CHUCK",
       "categoria": "VIBRADORES",
@@ -747,29 +701,6 @@
       "stock_estado": "disponible"
     },
     {
-      "sku": "vv-realcontrol",
-      "nombre": "VIBRADOR REALISTA CON BASE Y CONTROL",
-      "categoria": "VIBRADORES",
-      "precio_base": 450,
-      "precio_promo": null,
-      "promo_activa": false,
-      "descripcion": "VIBRADOR REALISTA CON BASE Y CONTROL. Descubre el placer con este dildo vibrador diseñado para quien busca una experiencia satisfactoria y realista.",
-      "beneficio": "Vibraciones y estimulos directos a tu zona íntima",
-      "ficha": "17 cm de largo · 3.6 cm de diámetro · Alimentación por batería · Autonomía 3 h · 7 modos de vibración · Control remoto",
-      "disponible": true,
-      "stock": 1,
-      "slug": "vibrador-realista-con-base-y-control-vv-realcontrol",
-      "imagen": "vibradores/vv-realcontrol.webp",
-      "galeria": [
-        "vibradores/vv-realcontrol.webp",
-        "vibradores/vv-realcontrol-1.webp",
-        "vibradores/vv-realcontrol-2.webp",
-        "vibradores/vv-realcontrol-3.webp"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
       "sku": "vv-elephant18",
       "nombre": "VIBRADOR ELEFANTE",
       "categoria": "VIBRADORES",
@@ -839,27 +770,6 @@
       "stock_estado": "disponible"
     },
     {
-      "sku": "vv-flamingo20",
-      "nombre": "VIBRADOR FLAMINGO BLUETOOTH CON APP",
-      "categoria": "VIBRADORES",
-      "precio_base": 850,
-      "precio_promo": null,
-      "promo_activa": false,
-      "descripcion": "El vibrador inteligente Flamingo redefine los encuentros a larga distancia permitiendo que tu pareja tome el control absoluto de tus sensaciones desde cualquier parte del mundo a través de su App dedicada por Bluetooth.",
-      "beneficio": "Control interactivo a larga distancia",
-      "ficha": "Material: Silicona médica premium biocompatible. Medidas: 20.0 x 4.0 cm. Bluetooth, control total desde App para iOS/Android. 10 modos de vibración independientes. Batería interna recargable vía USB.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "vibrador-flamingo-bluetooth-con-app-vv-flamingo20",
-      "imagen": "vibradores/vv-flamingo20.webp",
-      "galeria": [
-        "vibradores/vv-flamingo20.webp",
-        "vibradores/vv-flamingo20-1.webp"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
       "sku": "vv-mariposa",
       "nombre": "VIBRADOR MARIPOSA",
       "categoria": "VIBRADORES",
@@ -895,7 +805,7 @@
       "beneficio": "Deslizamiento ultra-suave",
       "ficha": "Lubricante íntimo natural soluble al agua. Inodoro y de textura suave. Contenido: 50ml.",
       "disponible": true,
-      "stock": 18,
+      "stock": 17,
       "slug": "lubricante-natural-siyi-lc-siyi50",
       "imagen": "lubricantes-cremas/lc-siyi50.webp",
       "galeria": [
@@ -984,7 +894,7 @@
       "beneficio": "Aplicación exacta con máxima comodidad",
       "ficha": "Lubricante anal en gel. Desensibilizador de fácil uso para más placer en pareja. Contenido: 15.44 ml / 15 grs.",
       "disponible": true,
-      "stock": 1,
+      "stock": 4,
       "slug": "analub-lc-analub",
       "imagen": "lubricantes-cremas/lc-analub.webp",
       "galeria": [
@@ -1051,26 +961,6 @@
       "imagen": "lubricantes-cremas/lc-4en1.webp",
       "galeria": [
         "lubricantes-cremas/lc-4en1.webp"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
-      "sku": "lc-feromonasel",
-      "nombre": "FEROMONAS PARA EL",
-      "categoria": "LUBRICANTES Y CREMAS",
-      "precio_base": 280,
-      "precio_promo": null,
-      "promo_activa": false,
-      "descripcion": "Atracción despierta presencia, magnetismo y seguridad en cada encuentro. Su aroma icónico envuelve, seduce y deja una impresión imposible de ignorar. Dos formatos, mismo poder de impacto.",
-      "beneficio": "Aumenta el atractivo y la huella sensorial",
-      "ficha": "Perfume con feromonas para él, diseñado para volverse irresistible con un agradable aroma para uso diario. Contenido: 60 ml.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "feromonas-para-el-lc-feromonasel",
-      "imagen": "lubricantes-cremas/lc-feromonasel.webp",
-      "galeria": [
-        "lubricantes-cremas/lc-feromonasel.webp"
       ],
       "stock_nota": "Disponible",
       "stock_estado": "disponible"
@@ -1617,7 +1507,7 @@
       "beneficio": "Energía explosiva para mayor placer",
       "ficha": "Vigorizante en botella de vidrio de 10 ml. Varias presentaciones y colores, según existencias. (Prohibido el uso en menores de edad).",
       "disponible": true,
-      "stock": 5,
+      "stock": 7,
       "slug": "poppers-rush-estimulantes-vs-popper",
       "imagen": "vigorizantes-sexuales/vs-popper.webp",
       "galeria": [
@@ -1782,29 +1672,6 @@
         "vibradores/vv-vertebrado5560.jpg",
         "vibradores/vv-vertebrado5560-1.jpeg",
         "vibradores/vv-vertebrado5560-2.jpg"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
-      "sku": "dp-realista73",
-      "nombre": "DILDO REALISTA 7.3 PULGADAS CON BASE DE SUCCIÓN",
-      "categoria": "DILDOS",
-      "precio_base": 480,
-      "precio_promo": 380,
-      "promo_activa": true,
-      "descripcion": "El tamaño perfecto para una satisfacción total. Con 7.3 pulgadas de textura natural y base de succión firme, es la pieza ideal tanto para uso individual como para compartir con arnés.",
-      "beneficio": "Tamaño perfecto para penetración profunda y control firme en cualquier posición",
-      "ficha": "Material silicona TPE grado médico flexible. Longitud 7.3 pulgadas (18.5 cm), grosor 3.8 cm. Textura venosa realista, testículos de soporte y ventosa compatible con arnés.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "dildo-realista-7-3-pulgadas-con-base-de-succion-dp-realista73",
-      "imagen": "dildos/dp-realista73.jpg",
-      "galeria": [
-        "dildos/dp-realista73.jpg",
-        "dildos/dp-realista73-1.jpg",
-        "dildos/dp-realista73-2.jpg",
-        "dildos/dp-realista73-3.jpg"
       ],
       "stock_nota": "Disponible",
       "stock_estado": "disponible"
@@ -2281,30 +2148,6 @@
       "stock_estado": "disponible"
     },
     {
-      "sku": "vv-expandiblec03",
-      "nombre": "BALA VIBRADORA EXPANDIBLE CON CONTROL INALÁMBRICO C03",
-      "categoria": "VIBRADORES",
-      "precio_base": 650,
-      "precio_promo": null,
-      "promo_activa": false,
-      "descripcion": "Personalización absoluta del placer. No solo vibra con fuerza, sino que se expande a tu gusto llenando el espacio interno para una sensación de presión y roce que roba el aliento.",
-      "beneficio": "Ajuste de volumen interno personalizable: se expande a tu gusto aumentando el placer",
-      "ficha": "Silicona ultra flexible con mecanismo interno de dilatación micrométrica y vibración. Mando a distancia inalámbrico de alta precisión. Batería recargable magnética USB. Medidas: 9 x 2.8 a 3.8 cm expandida.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "bala-vibradora-expandible-con-control-inalambrico-c03-vv-expandiblec03",
-      "imagen": "vibradores/vv-expandiblec03.jpg",
-      "galeria": [
-        "vibradores/vv-expandiblec03.jpg",
-        "vibradores/vv-expandiblec03-1.jpg",
-        "vibradores/vv-expandiblec03-2.jpg",
-        "vibradores/vv-expandiblec03-3.jpg",
-        "vibradores/vv-expandiblec03-4.jpg"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
       "sku": "mb-boca5507",
       "nombre": "MASTURBADOR MANUAL BOCA REALISTA 5507",
       "categoria": "MASTURBADORES Y BOMBAS",
@@ -2384,7 +2227,7 @@
       "beneficio": "Ideal para principiantes que buscan elegancia, comodidad y peso metálico excitante",
       "ficha": "Cuerpo de metal pulido liso libre de aristas. Joya facetada en la base. Incluye saquito de terciopelo. Medidas: 6.5 x 2.4 cm.",
       "disponible": true,
-      "stock": 2,
+      "stock": 1,
       "slug": "plug-metalico-diamante-chico-con-bolsa-de-terciopelo-5494-ja-diamantech5494",
       "imagen": "juguetes-anales/ja-diamantech5494.jpg",
       "galeria": [
@@ -2414,30 +2257,6 @@
       "galeria": [
         "vibradores/vv-flamingoflorapp.jpg",
         "vibradores/vv-flamingoflorapp-1.jpg"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
-      "sku": "vv-conejolenguausb",
-      "nombre": "VIBRADOR RABBIT CON ESTIMULADOR DE LENGUA OSCILANTE USB",
-      "categoria": "VIBRADORES",
-      "precio_base": 500,
-      "precio_promo": null,
-      "promo_activa": false,
-      "descripcion": "Doble estímulo coordinado. Mientras su cuerpo acanalado penetra con firmeza, sus orejas con lengüeta oscilante acarician el clítoris a ritmo frenético, multiplicando las probabilidades de orgasmo doble.",
-      "beneficio": "Doble clímax asegurado: penetración vibrante simultánea con lamido continuo en el clítoris",
-      "ficha": "Silicona grado médico sedosa. Lengüeta oscilante de alta velocidad combinada con motor de inserción. 10 patrones independientes. Batería recargable USB. Medidas: 18 x 3.2 cm.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "vibrador-rabbit-con-estimulador-de-lengua-oscilante-usb-vv-conejolenguausb",
-      "imagen": "vibradores/vv-conejolenguausb.jpg",
-      "galeria": [
-        "vibradores/vv-conejolenguausb.jpg",
-        "vibradores/vv-conejolenguausb-1.jpg",
-        "vibradores/vv-conejolenguausb-2.jpg",
-        "vibradores/vv-conejolenguausb-3.jpg",
-        "vibradores/vv-conejolenguausb-4.jpg"
       ],
       "stock_nota": "Disponible",
       "stock_estado": "disponible"
@@ -2510,30 +2329,6 @@
         "retardantes-sexuales/rs-titangold-2.jpg",
         "retardantes-sexuales/rs-titangold-3.jpg",
         "retardantes-sexuales/rs-titangold-4.jpg"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
-      "sku": "mb-copadoble5440",
-      "nombre": "COPA MASTURBADORA DOBLE ENTRADA Y SUCCIÓN 5440",
-      "categoria": "MASTURBADORES Y BOMBAS",
-      "precio_base": 490,
-      "precio_promo": 380,
-      "promo_activa": true,
-      "descripcion": "Dos mundos de placer en una sola copa. Alterna entre sus dos entradas con túneles de distinta textura y estriado interior para satisfacer tus antojos con una succión profunda.",
-      "beneficio": "Doble orificio con texturas internas diferentes para variar las sensaciones al máximo",
-      "ficha": "Carcasa rígida protectora con inserto interno de TPE súper suave y acanalado. Doble extremo utilizable (vaginal y anal/oral simulado). Fácil lavado. Medidas: 14 x 6 cm.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "copa-masturbadora-doble-entrada-y-succion-5440-mb-copadoble5440",
-      "imagen": "masturbadores-bombas/mb-copadoble5440.jpg",
-      "galeria": [
-        "masturbadores-bombas/mb-copadoble5440.jpg",
-        "masturbadores-bombas/mb-copadoble5440-1.jpg",
-        "masturbadores-bombas/mb-copadoble5440-2.jpg",
-        "masturbadores-bombas/mb-copadoble5440-3.jpg",
-        "masturbadores-bombas/mb-copadoble5440-4.jpg"
       ],
       "stock_nota": "Disponible",
       "stock_estado": "disponible"
