@@ -32,8 +32,8 @@
       id: 'black-friday',
       name: 'Black Friday',
       icon: '⚡',
-      bannerText: '⚡ BLACK VIP DEALS · Descuentos exclusivos y máxima discreción garantizada',
-      badge: 'Cyber Deals'
+      bannerText: '⚡ BLACK VIP DEALS · Descuentos exclusivos y envíos 100% discretos a todo México 🔥',
+      badge: 'Black Friday VIP'
     },
     'navidad': {
       id: 'navidad',
@@ -116,13 +116,8 @@
     const month = now.getMonth(); // 0-11: 9=Octubre, 10=Noviembre, 11=Diciembre
     const day = now.getDate();
 
-    // 🎃 Halloween: 20 de Octubre al 5 de Noviembre
-    if ((month === 9 && day >= 20) || (month === 10 && day <= 5)) {
-      return 'halloween';
-    }
-
-    // ⚡ Black Friday / Cyber: 15 de Noviembre al 30 de Noviembre
-    if (month === 10 && day >= 15) {
+    // ⚡ Black Friday / Cyber: Todo Noviembre (1 al 30 de Noviembre)
+    if (month === 10) {
       return 'black-friday';
     }
 
@@ -134,6 +129,11 @@
     // 💖 San Valentín: 1 de Febrero al 20 de Febrero
     if (month === 1 && day >= 1 && day <= 20) {
       return 'san-valentin';
+    }
+
+    // 🎃 Halloween: 20 de Octubre al 31 de Octubre
+    if (month === 9 && day >= 20) {
+      return 'halloween';
     }
 
     // ✨ Por defecto: Clásico Love&Sex
@@ -148,6 +148,12 @@
     const manualTheme = localStorage.getItem(STORAGE_KEY_THEME);
 
     if (mode === 'manual' && manualTheme && THEMES[manualTheme]) {
+      // Si quedó guardado Halloween previo, migrar automáticamente a Black Friday en noviembre
+      if (manualTheme === 'halloween') {
+        localStorage.removeItem(STORAGE_KEY_THEME);
+        localStorage.removeItem(STORAGE_KEY_MODE);
+        return { theme: detectSeasonalTheme(), mode: 'auto' };
+      }
       return { theme: manualTheme, mode: 'manual' };
     }
 
@@ -158,7 +164,7 @@
    * Aplica el tema al elemento raíz <html> inmediatamente
    */
   function applyTheme(themeId, mode) {
-    if (!THEMES[themeId]) themeId = 'halloween';
+    if (!THEMES[themeId]) themeId = 'black-friday';
     
     document.documentElement.setAttribute('data-theme', themeId);
     
@@ -180,7 +186,7 @@
     const banner = document.getElementById('seasonal-banner');
     if (!banner) return;
 
-    const config = THEMES[themeId] || THEMES['halloween'];
+    const config = THEMES[themeId] || THEMES['black-friday'];
     const contentEl = banner.querySelector('.seasonal-banner-content');
     if (contentEl) {
       contentEl.innerHTML = `
@@ -199,7 +205,7 @@
     const bannerDismissed = sessionStorage.getItem(STORAGE_KEY_BANNER);
     if (bannerDismissed === 'true') return;
 
-    const config = THEMES[activeTheme] || THEMES['halloween'];
+    const config = THEMES[activeTheme] || THEMES['black-friday'];
 
     const banner = document.createElement('div');
     banner.id = 'seasonal-banner';
@@ -240,7 +246,7 @@
     container.id = 'theme-switcher-container';
     container.className = 'theme-switcher-container';
 
-    const currentConfig = THEMES[activeTheme] || THEMES['halloween'];
+    const currentConfig = THEMES[activeTheme] || THEMES['black-friday'];
 
     let optionsHtml = '';
     for (const [id, theme] of Object.entries(THEMES)) {
@@ -348,7 +354,7 @@
     const container = document.getElementById('theme-switcher-container');
     if (!container) return;
 
-    const config = THEMES[themeId] || THEMES['halloween'];
+    const config = THEMES[themeId] || THEMES['black-friday'];
     
     // Actualizar pill
     const iconEl = container.querySelector('#theme-pill-icon');
