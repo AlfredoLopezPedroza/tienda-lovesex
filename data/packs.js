@@ -1,23 +1,23 @@
 module.exports = [
   {
     id: 'promo-1',
-    nombre: 'Promo #1',
-    descripcion: '',
-    imagen: '/img/packs/promo-1.png?v=2',
-    whatsappMensaje: 'Hola 👋\n\nMe interesa la Promo #1\n\n¿Me das más información?'
+    nombre: 'Black Chemistry (Parejas)',
+    descripcion: 'Antes $450 · Ahora $299 MXN',
+    imagen: '/img/packs/promo-1.png?v=3',
+    whatsappMensaje: 'Hola 👋\n\nQuiero aprovechar la Promo #1: BLACK CHEMISTRY de Black Friday por $299 MXN.\n\n¿Me confirman disponibilidad y detalles del envío discreto?'
   },
   {
     id: 'promo-2',
-    nombre: 'Promo #2',
-    descripcion: '',
-    imagen: '/img/packs/promo-2.png',
-    whatsappMensaje: 'Hola 👋\n\nMe interesa la Promo #2\n\n¿Me das más información?'
+    nombre: 'Golden Touch (Placer VIP)',
+    descripcion: 'Antes $600 · Ahora $499 MXN',
+    imagen: '/img/packs/promo-2.png?v=3',
+    whatsappMensaje: 'Hola 👋\n\nMe interesa la Promo #2: GOLDEN TOUCH de Black Friday por $499 MXN.\n\n¿Me comparten las características y detalles del envío discreto?'
   },
   {
     id: 'promo-3',
-    nombre: 'Promo #3',
-    descripcion: '',
-    imagen: '/img/packs/promo-3.png',
-    whatsappMensaje: 'Hola 👋\n\nMe interesa la Promo #3\n\n¿Me das más información?'
+    nombre: 'Power Mode (Masculino)',
+    descripcion: 'Antes $450 · Ahora $299 MXN',
+    imagen: '/img/packs/promo-3.png?v=3',
+    whatsappMensaje: 'Hola 👋\n\nQuiero la Promo #3: POWER MODE de Black Friday por $299 MXN.\n\n¿Está disponible para envío discreto?'
   }
 ];
