@@ -1,4 +1,5 @@
 const WHATSAPP_NUMBER = '527771949697';
+const MOSTRAR_PACKS_HOME = false; // Ocultar sección PROMOCIONES temporalmente (reemplazada por Promo Toast)
 
 // Variables globales
 let productosOriginales = [];
@@ -169,6 +170,13 @@ function renderizarPacksHome() {
     console.warn('No se encontró el contenedor #packs-destacados');
     return;
   }
+
+  if (!MOSTRAR_PACKS_HOME) {
+    packsContainer.style.display = 'none';
+    packsContainer.innerHTML = '';
+    return;
+  }
+  packsContainer.style.display = '';
 
   // Limpiar contenido
   packsContainer.innerHTML = '';
