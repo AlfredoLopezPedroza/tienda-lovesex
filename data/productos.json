@@ -591,27 +591,6 @@
       "stock_estado": "disponible"
     },
     {
-      "sku": "vv-balac",
-      "nombre": "BALA VIBRADORA EN FORMA DE CONEJO",
-      "categoria": "VIBRADORES",
-      "precio_base": 250,
-      "precio_promo": null,
-      "promo_activa": false,
-      "descripcion": "VIBRADOR BALAC. Convierte cada encuentro en una experiencia sublime. Su tacto aterciopelado y acabados premium garantizan una estimulación precisa y profunda.",
-      "beneficio": "Estimulación directa e intensa",
-      "ficha": "Material: Tipo gel grado quirúrgico. Ideal para estimular zonas erógenas. Requerimientos: Utiliza 2 pilas AA (no incluidas). Se recomienda el uso de lubricante. Color sujeto a disponibilidad.",
-      "disponible": true,
-      "stock": 1,
-      "slug": "bala-vibradora-en-forma-de-conejo-vv-balac",
-      "imagen": "vibradores/vv-balac.webp",
-      "galeria": [
-        "vibradores/vv-balac.webp",
-        "vibradores/vv-balac-1.jpg"
-      ],
-      "stock_nota": "Disponible",
-      "stock_estado": "disponible"
-    },
-    {
       "sku": "vv-app",
       "nombre": "VIBRADOR CON APLICACIÓN PARA IOS",
       "categoria": "VIBRADORES",
@@ -1840,7 +1819,7 @@
       "sku": "vv-lenguarosa",
       "nombre": "VIBRADOR ESTIMULADOR CLITORIANO CON LENGUA OSCILANTE ROSA",
       "categoria": "VIBRADORES",
-      "precio_base": 450,
+      "precio_base": 650,
       "precio_promo": null,
       "promo_activa": false,
       "descripcion": "La caricia más deseada en la palma de tu mano. Su suave lengüeta oscilante de alta velocidad recrea el placer del sexo oral con movimientos delicados y constantes que te llevarán al éxtasis.",

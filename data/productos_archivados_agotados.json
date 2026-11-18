@@ -1,7 +1,7 @@
 {
-  "fecha_archivo": "2026-11-05T21:35:01.114423Z",
+  "fecha_archivo": "2026-11-17",
   "motivo": "Actualización de inventario maestro 30-oct-2026: 10 productos agotados archivados y 1 reactivado (lc-feromonasella) según existencias reales",
-  "total_archivados": 57,
+  "total_archivados": 58,
   "productos": [
     {
       "sku": "dp-arnesh",
@@ -1280,6 +1280,27 @@
         "masturbadores-bombas/mb-copadoble5440-4.jpg"
       ],
       "stock_nota": "No disponible",
+      "stock_estado": "agotado"
+    },
+    {
+      "sku": "vv-balac",
+      "nombre": "BALA VIBRADORA EN FORMA DE CONEJO",
+      "categoria": "VIBRADORES",
+      "precio_base": 250,
+      "precio_promo": null,
+      "promo_activa": false,
+      "descripcion": "VIBRADOR BALAC. Convierte cada encuentro en una experiencia sublime. Su tacto aterciopelado y acabados premium garantizan una estimulación precisa y profunda.",
+      "beneficio": "Estimulación directa e intensa",
+      "ficha": "Material: Tipo gel grado quirúrgico. Ideal para estimular zonas erógenas. Requerimientos: Utiliza 2 pilas AA (no incluidas). Se recomienda el uso de lubricante. Color sujeto a disponibilidad.",
+      "disponible": false,
+      "stock": 0,
+      "slug": "bala-vibradora-en-forma-de-conejo-vv-balac",
+      "imagen": "vibradores/vv-balac.webp",
+      "galeria": [
+        "vibradores/vv-balac.webp",
+        "vibradores/vv-balac-1.jpg"
+      ],
+      "stock_nota": "Agotado",
       "stock_estado": "agotado"
     }
   ]
