@@ -433,3 +433,75 @@
     padding: 4px 9px;
   }
 }
+
+/* ============================================================
+   TOQUE NAVIDEÑO (html[data-theme="navidad"])
+   Verde pino profundo + Rojo navideño (#e63946) + Dorado (#ffd166)
+   ============================================================ */
+html[data-theme="navidad"] .ls-promo-toast {
+  background: linear-gradient(145deg, #0b1f15 0%, #07120c 100%);
+  border-color: #e63946;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.78), 0 0 18px rgba(230, 57, 70, 0.28);
+}
+
+html[data-theme="navidad"] .ls-promo-toast:hover {
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.85), 0 0 24px rgba(255, 209, 102, 0.36);
+}
+
+html[data-theme="navidad"] .ls-promo-toast-img {
+  border-color: rgba(255, 209, 102, 0.45);
+}
+
+html[data-theme="navidad"] .ls-promo-toast-badge,
+html[data-theme="navidad"] .ls-promo-modal-badge {
+  background: linear-gradient(90deg, #e63946 0%, #c81e2b 100%);
+  color: #ffffff;
+}
+
+html[data-theme="navidad"] .ls-promo-toast-new,
+html[data-theme="navidad"] .ls-promo-modal-new {
+  color: #ffd166;
+}
+
+html[data-theme="navidad"] .ls-promo-pill {
+  background: linear-gradient(135deg, #0b1f15 0%, #14080a 100%);
+  color: #ffd166;
+  border-color: #e63946;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.75), 0 0 16px rgba(230, 57, 70, 0.32);
+}
+
+html[data-theme="navidad"] .ls-promo-modal {
+  background: #0a1911;
+  border-color: #e63946;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.88), 0 0 28px rgba(230, 57, 70, 0.24);
+}
+
+html[data-theme="navidad"] .ls-promo-tab {
+  border-color: rgba(255, 209, 102, 0.35);
+  background: #0f2419;
+}
+
+html[data-theme="navidad"] .ls-promo-tab.is-active {
+  background: #e63946;
+  color: #ffffff;
+  border-color: #e63946;
+}
+
+html[data-theme="navidad"] .catalogo-banner-card {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(230, 57, 70, 0.2), transparent 55%),
+    radial-gradient(circle at 80% 80%, rgba(0, 135, 90, 0.22), transparent 55%),
+    linear-gradient(135deg, #07140d 0%, #170a0d 55%, #07140d 100%);
+  border-color: rgba(255, 209, 102, 0.55);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.6), 0 0 24px rgba(230, 57, 70, 0.16);
+}
+
+html[data-theme="navidad"] .catalogo-banner-eyebrow {
+  background: linear-gradient(90deg, #e63946 0%, #c81e2b 100%);
+  color: #ffffff;
+}
+
+html[data-theme="navidad"] .catalogo-banner-pills span {
+  color: #ffd166;
+  border-color: rgba(255, 209, 102, 0.3);
+}

@@ -116,14 +116,14 @@
     const month = now.getMonth(); // 0-11: 9=Octubre, 10=Noviembre, 11=Diciembre
     const day = now.getDate();
 
-    // ⚡ Black Friday / Cyber: Todo Noviembre (1 al 30 de Noviembre)
-    if (month === 10) {
-      return 'black-friday';
+    // 🎄 Navidad / Fin de Año / Reyes: 19 de Noviembre al 6 de Enero
+    if ((month === 10 && day >= 19) || month === 11 || (month === 0 && day <= 6)) {
+      return 'navidad';
     }
 
-    // 🎄 Navidad / Fin de Año / Reyes: 1 de Diciembre al 6 de Enero
-    if (month === 11 || (month === 0 && day <= 6)) {
-      return 'navidad';
+    // ⚡ Black Friday / Cyber: 1 al 18 de Noviembre
+    if (month === 10) {
+      return 'black-friday';
     }
 
     // 💖 San Valentín: 1 de Febrero al 20 de Febrero

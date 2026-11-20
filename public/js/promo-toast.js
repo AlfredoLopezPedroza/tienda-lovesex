@@ -11,33 +11,33 @@
     {
       id: 'parejas',
       tabLabel: '#1 Parejas',
-      badge: '⚡ OFERTA PAREJAS',
+      badge: '🎄 NAVIDAD PAREJAS',
       nombre: 'Vibrador Huevo + Lubricante 4 en 1',
       precioAnterior: '$420',
       precioNuevo: '$299 MXN',
       imagen: '/img/productos/vibradores/vv-huevo01.webp',
       descripcion:
-        'Incluye Vibrador Tipo Huevo (discreto y potente) + Lubricante 4 en 1. Ideal para encender la noche en pareja.',
+        'Incluye Vibrador Tipo Huevo (discreto y potente) + Lubricante 4 en 1. Ideal para regalar o disfrutar en pareja esta Navidad.',
       whatsappMensaje:
-        'Hola 👋\n\nQuiero aprovechar la Oferta VIP #1: VIBRADOR HUEVO + LUBRICANTE 4 EN 1 por $299 MXN (antes $420).\n\n¿Me confirman disponibilidad y detalles del envío discreto?'
+        'Hola 👋\n\nQuiero aprovechar la Oferta Navideña #1: VIBRADOR HUEVO + LUBRICANTE 4 EN 1 por $299 MXN (antes $420).\n\n¿Me confirman disponibilidad y detalles del envío discreto?'
     },
     {
       id: 'mujer-vip',
       tabLabel: '#2 Mujer VIP',
-      badge: '🔥 TOP MUJER VIP',
+      badge: '🎁 TOP MUJER VIP',
       nombre: 'Estimulador Pélvico Flamingo 5981',
       precioAnterior: '$850',
       precioNuevo: '$599 MXN',
       imagen: '/img/productos/vibradores/vv-flamingocb5981.jpg',
       descripcion:
-        'Estimulador pélvico Flamingo recargable de alta potencia y múltiples modos. El favorito VIP para máximo placer.',
+        'Estimulador pélvico Flamingo recargable de alta potencia y múltiples modos. El regalo VIP favorito para máximo placer.',
       whatsappMensaje:
-        'Hola 👋\n\nMe interesa la Oferta VIP #2: ESTIMULADOR FLAMINGO 5981 por $599 MXN (antes $850).\n\n¿Me confirman disponibilidad y detalles del envío discreto?'
+        'Hola 👋\n\nMe interesa la Oferta Navideña #2: ESTIMULADOR FLAMINGO 5981 por $599 MXN (antes $850).\n\n¿Me confirman disponibilidad y detalles del envío discreto?'
     },
     {
       id: 'hombre',
       tabLabel: '#3 Hombre',
-      badge: '💥 POTENCIA HOMBRE',
+      badge: '✨ POTENCIA HOMBRE',
       nombre: 'Anillo Media Funda + Vigorizante Dragon',
       precioAnterior: '$450',
       precioNuevo: '$299 MXN',
@@ -45,7 +45,7 @@
       descripcion:
         'Combo rendimiento total: Anillo Elastomérico con Media Funda Estimulante + Vigorizante Dragon.',
       whatsappMensaje:
-        'Hola 👋\n\nQuiero la Oferta VIP #3: ANILLO MEDIA FUNDA + VIGORIZANTE DRAGON por $299 MXN (antes $450).\n\n¿Está disponible para envío discreto?'
+        'Hola 👋\n\nQuiero la Oferta Navideña #3: ANILLO MEDIA FUNDA + VIGORIZANTE DRAGON por $299 MXN (antes $450).\n\n¿Está disponible para envío discreto?'
     }
   ];
 
@@ -108,7 +108,7 @@
     pillEl = document.createElement('button');
     pillEl.type = 'button';
     pillEl.className = 'ls-promo-pill';
-    pillEl.textContent = '🔥 3 Promos VIP';
+    pillEl.textContent = '🎁 3 Promos Navidad';
     pillEl.addEventListener('click', function () {
       openModal(currentIdx);
     });
